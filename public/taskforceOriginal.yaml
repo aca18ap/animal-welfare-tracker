@@ -1,0 +1,2343 @@
+last_updated: "2025-12-01"
+
+status_scales:
+  overall_status:
+    - on_track
+    - off_track
+    - completed
+    - abandoned
+  update_status:
+    - info
+    - progress
+    - risk
+    - off_track
+    - completed
+    - blocked
+
+
+chapters:
+  - id: 1
+    title: 'Overview and Objectives of the Taskforce'
+    summary: |
+      Introduces why the Nuclear Regulatory Taskforce was set up and what it was asked to do: review the civil and defence nuclear regulatory system and recommend reforms that make projects faster and cheaper while maintaining – not weakening – safety. It explains the remit, the focus on regulation rather than industrial strategy or financing, and the main principles guiding the work (proportionality, clarity, system-level thinking, practical delivery).
+
+      It also describes how the Taskforce worked: evidence-gathering from departments, regulators, industry and international comparators; site visits; and commissioned analysis. The chapter then lays out the structure of the report and signals that later sections will move from context, to diagnosis, to concrete recommendations and implementation.
+  - id: 2
+    title: 'Nuclear in the UK'
+    summary: |
+      Sets out the UK nuclear landscape in historical and current terms. It traces the UK’s early leadership (first grid-connected station, pioneering civil and defence programmes) and then the subsequent decline: an ageing fleet, stalled or cancelled projects, and a loss of industrial capability. It maps the main parts of the sector – civil generation, defence (deterrent and submarines), decommissioning and waste, and the wider supply chain.
+
+      The chapter then looks ahead: expected growth in electricity demand (including from AI and electrification), the need for firm low-carbon power for net zero, and the role of nuclear in energy security and national security. Nuclear is framed as a strategic capability that underpins cheap, reliable power, supports high-value jobs, and anchors the independent deterrent.
+  - id: 3
+    title: 'Regulation of Nuclear Activities in the UK'
+    summary: |
+      Summarises how nuclear activities are regulated today and the key concepts that underpin the system. It explains the goal-based approach (dutyholders must demonstrate safety rather than simply follow prescriptive rules), ALARP and ALARA principles, Best Available Techniques, and the core legal instruments such as the Nuclear Installations Act, Health and Safety at Work Act, Ionising Radiations Regulations and Environmental Permitting Regulations.
+
+      The chapter also maps the institutional landscape: ONR, DNSR, the Environment Agency and equivalents in the devolved nations, planning authorities, and central government departments. It describes processes such as safety cases, Generic Design Assessment and Justification, and shows how multiple overlapping regimes shape what happens on nuclear sites.
+  - id: 4
+    title: 'Summary of the Problem'
+    summary: |
+      Provides the central diagnosis of why nuclear projects in the UK are so slow and expensive. Regulation is described as a complex, multi-layer system where decisions are taken not just by regulators but by departments, dutyholders and courts, often influenced by international standards and fear of judicial review. Over time, this has created duplication, unclear accountability, and a pattern of highly conservative decisions that do not obviously improve safety in proportion to their cost.
+
+      Five clusters of issues are highlighted: a risk-averse reading of ALARP; decommissioning and waste approaches that assume very stringent end-states and move slowly on the Geological Disposal Facility; cumbersome Habitats and Environmental Impact Assessment processes; a planning regime that adds long pre-application and examination phases; and cultural and capacity weaknesses that entrench “gold-plating” and slow decision-making. The conclusion is that marginal tweaks will not be enough: a system-level reset is needed.
+  - id: 5
+    title: "Simplification of Nuclear Regulation"
+    summary: |
+      Develops proposals to simplify the institutional and legal landscape. It argues that the current fragmentation – multiple regulators on the same site, overlapping powers, differing standards and heavy use of consultants – drives complexity and slows decisions. A more unified structure is proposed, with clearer lines of accountability and a single place where big regulatory calls are made.
+
+      Key ideas include: moving towards a one-stop model for nuclear safety regulation; designating a lead regulator when more than one body is involved; and ultimately legislating for a Commission for Nuclear Regulation – a collective body responsible for major regulatory decisions. Government’s role is to set strategic direction, resolve cross-cutting policy conflicts, and provide a coherent national framework rather than leaving regulators to navigate those tensions alone.
+  - id: 6
+    title: "Risk Management & Proportionality"
+    summary: |
+      Examines how risk is interpreted and managed in the UK system, particularly the ALARP principle and the Tolerability of Risk (TOR) framework. The analysis suggests that ALARP has drifted towards a one-sided focus on minimising risk without enough weight on what is “reasonably practicable”, and that some radiological dose and risk targets are set more stringently than in peer countries. Qualitative, conservative judgements often dominate over explicit cost-benefit analysis, and portfolio-level trade-offs (e.g. across a defence programme or the decommissioning estate) are weak.
+
+      The chapter proposes clarifying in law what proportionality means for HSWA duties, updating key guidance such as R2P2, and making more systematic use of explicit risk–cost balancing. It also returns to the Three Lines of Defence concept to re-establish clear roles for management, independent assurance and regulators. Another theme is separating truly nuclear hazards from conventional ones on nuclear sites, so that nuclear-grade standards are only applied where justified by the nature of the risk.
+  - id: 7
+    title: "Environmental Assessments & Permitting"
+    summary: |
+      Looks at how environmental law interacts with nuclear projects. While reaffirming the importance of robust protection for habitats and species, the chapter argues that current practice around Habitats Regulations Assessments and EIAs has become duplicative, slow and excessively risk-averse. Fear of legal challenge and an insistence on site-specific micro-mitigation can lead to huge expenditure and physical interventions that may add little to overall environmental outcomes.
+
+      Proposed reforms include creating an alternative compliance route via substantial contributions to a new nature fund in place of elaborate on-site mitigation, streamlining and sequencing environmental assessments so that major issues are resolved once rather than repeatedly, improving access to environmental data, and introducing statutory timelines and clearer guidance on Biodiversity Net Gain. There is also a discussion of judicial review and costs, with suggestions to maintain scrutiny but reduce the chilling effect on timely decision-making.
+  - id: 8
+    title: "The Planning System"
+    summary: |
+      Describes how planning, especially the NSIP regime, affects nuclear projects. The system, intended to speed up major infrastructure, is portrayed as lengthy and procedurally heavy, with long pre-application periods, overlapping assessments and limited flexibility to adapt projects once an application is submitted. It is also largely designed around large, bespoke nuclear stations rather than a future that may involve smaller or modular reactors and a fleet-based rollout.
+
+      The chapter recommends giving nuclear and certain associated projects (like the GDF) clearly prioritised status in national planning policy, simplifying Development Consent Orders, and modernising population density and planning zone criteria to reflect current reactor safety characteristics. It also suggests more proportionate treatment for early investigative works such as boreholes. Many of the proposed changes are framed as potentially beneficial precedents for other critical low-carbon infrastructure.
+  - id: 9
+    title: "Culture, Capacity, Capability, & Innovation"
+    summary: |
+      Shifts focus from rules and institutions to people, behaviours and skills. It argues that culture across the sector – in regulators, government and industry – has a direct impact on safety, cost and timeliness. A narrow interpretation of “safety first” can crowd out consideration of time and cost even where delays also carry risks (e.g. to energy security). Leadership attention to organisational culture, and better tools for assessing and managing it, are identified as crucial.
+
+      The chapter also highlights workforce challenges: shortages of experienced specialists, an ageing workforce, constraints on pay and conditions in regulatory bodies, and heavy reliance on contractors. It calls for implementation of national nuclear skills plans, stronger non-technical skills, and more movement of staff between organisations. Finally, it notes slow uptake of digital tools, data-centric engineering, robotics and AI, and proposes targeted programmes to embed these technologies in design, construction, operation and regulation.
+  - id: 10
+    title: "International Harmonisation"
+    summary: |
+      Sets nuclear regulation in an international context. Many countries are expanding nuclear, but regulatory approaches differ significantly, creating complexity and cost for reactor designs deployed across borders. The UK experience with adapting foreign designs, such as for Hinkley Point C, is used to illustrate how bespoke national requirements can drive up cost and delay without necessarily improving safety.
+
+      The chapter advocates a more strategic UK role in international harmonisation. Suggestions include making systematic use of other trusted regulators’ assessments, conducting joint reviews, focusing UK effort on genuinely local or site-specific issues, and strengthening the UK’s voice in international standards-setting. It also looks at export controls, arguing that current licensing is slow and overly complex for low-risk exports, and recommends a more risk-based regime, time-limited licences and open licences for regulators to support global collaboration while maintaining non-proliferation commitments.
+  - id: 11
+    title: "Additional Recommendations and Issues"
+    summary: |
+      Collects a set of important cross-cutting topics that do not sit neatly in earlier chapters. One major theme is ONR’s funding and charging model: recovering costs “to the penny” from dutyholders limits ONR’s ability to invest in its own capacity, build reserves or engage internationally, and creates uncertainty for industry. A more flexible, predictable model is proposed.
+
+      Other themes include the need for a later review of the Nuclear Installations Act to support novel applications (such as nuclear propulsion at sea), the distorting effect of cost-plus contracts and weak financial incentives on the extent of “gold-plating”, and issues around nuclear liability, insurance and interactions with non-Convention states. The chapter also touches on site availability, approaches to releasing land for new projects, novel nuclear applications (shipping, space, radioisotopes), and the potential of modularisation to cut cost and time in both new build and decommissioning.
+
+proposals:
+  - id: 1
+    title: "Government to provide clearer leadership and direction for the nuclear sector"
+    description: "High-level leadership and strategic steer."
+    recommendation_ids: [1]
+
+  - id: 2
+    title: "Government and regulators to work together to simplify the regulatory approval process for nuclear projects"
+    description: "Streamlining and consolidating regulatory processes."
+    recommendation_ids: [2, 3, 4, 15, 35]
+
+  - id: 3
+    title: "Nuclear sector and government to focus on reducing risk aversion and ensuring regulatory and sector decisions are proportionate"
+    description: "Addressing disproportionate decisions and risk management."
+    recommendation_ids: [5, 6, 7, 8, 9, 10, 13, 22, 23, 43, 45]
+
+  - id: 4
+    title: "Nuclear sector and government to address cultural, capability and financial incentives that block progress/delivery"
+    description: "Culture change, skills development and incentive alignment."
+    recommendation_ids: [16, 21, 36, 38, 39, 40, 41, 42, 44]
+
+  - id: 5
+    title: "Nuclear sector and government to enable acceleration of delivery and innovation"
+    description: "Removing barriers to faster project delivery and innovation."
+    recommendation_ids: [11, 12, 14, 17, 18, 19, 20, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 37, 46, 47]
+
+owner_info:
+  - owner: "No. 10"
+    key_people:
+      - title: "Prime Minister"
+        name: "Keir Starmer"
+      - title: "Cabinet Secretary"
+        name: "Chris Wormald"
+
+  - owner: "Cabinet Office"
+    key_people:
+      - title: "Chancellor of the Duchy of Lancaster"
+        name: "Darren Jones"
+      - title: "Cabinet Secretary"
+        name: "Chris Wormald"
+
+  - owner: "DBT"
+    key_people:
+      - title: "Secretary of State"
+        name: "Peter Kyle"
+      - title: "Permanent Secretary"
+        name: "Gareth Davies"
+
+  - owner: "DEFRA"
+    key_people:
+      - title: "Secretary of State"
+        name: "Emma Reynolds"
+      - title: "Permanent Secretary"
+        name: "Paul Kissack"
+
+  - owner: "DESNZ"
+    key_people:
+      - title: "Secretary of State"
+        name: "Ed Miliband"
+      - title: "Minister of State"
+        name: "Lord Vallance of Balham"
+      - title: "Interim Permanent Secretary"
+        name: "Clive Maxwell"
+
+  - owner: "DNSR"
+    key_people: []
+
+  - owner: "DWP"
+    key_people:
+      - title: "Secretary of State"
+        name: "Pat McFadden"
+      - title: "Permanent Secretary"
+        name: "Sir Peter Schofield"
+
+  - owner: "Dutyholders"
+    key_people: []
+
+  - owner: "EA"
+    key_people:
+      - title: "Chief Executive"
+        name: "Philip Duffy"
+
+  - owner: "EDF"
+    key_people:
+      - title: "Chief Executive, EDF Energy (UK)"
+        name: "Simone Rossi"
+
+  - owner: "Environment Agency"
+    key_people:
+      - title: "Chief Executive"
+        name: "Philip Duffy"
+
+  - owner: "FCDO"
+    key_people:
+      - title: "Secretary of State"
+        name: "Yvette Cooper"
+      - title: "Permanent Under-Secretary"
+        name: "Sir Olly Robbins"
+
+  - owner: "HM Treasury"
+    key_people:
+      - title: "Chancellor of the Exchequer"
+        name: "Rachel Reeves"
+      - title: "Permanent Secretary"
+        name: "James Bowler"
+
+  - owner: "HSE"
+    key_people:
+      - title: "Chief Executive"
+        name: "Sarah Albon"
+
+  - owner: "Industry"
+    key_people: []
+
+  - owner: "MHCLG"
+    key_people:
+      - title: "Secretary of State"
+        name: "Steve Reed"
+      - title: "Permanent Secretary"
+        name: "Dame Sarah Healey"
+
+  - owner: "MOD"
+    key_people:
+      - title: "Secretary of State"
+        name: "John Healey"
+      - title: "Permanent Secretary"
+        name: "Jeremy Pocklington"
+
+  - owner: "MOJ"
+    key_people:
+      - title: "Secretary of State"
+        name: "David Lammy"
+      - title: "Permanent Secretary"
+        name: "Dr Jo Farrar"
+
+  - owner: "NDA"
+    key_people:
+      - title: "Chief Executive"
+        name: "David Peattie"
+
+  - owner: "NSAN"
+    key_people:
+      - title: "Managing Director"
+        name: "Tricia Austin"
+
+  - owner: "Natural England"
+    key_people:
+      - title: "Chief Executive"
+        name: "Marian Spain"
+
+  - owner: "Nuclear Skills Delivery Board"
+    key_people:
+      - title: "Chair"
+        name: "Mark Rouse"
+
+  - owner: "ONR"
+    key_people:
+      - title: "Chief Executive"
+        name: "Mike Finnerty"
+
+  - owner: "Other regulators"
+    key_people: []
+
+  - owner: "Planning Inspectorate"
+    key_people:
+      - title: "Chief Executive"
+        name: "Paul Morrison"
+
+  - owner: "Regulators"
+    key_people: []
+
+  - owner: "UKHSA"
+    key_people:
+      - title: "Chief Executive"
+        name: "Susan Hopkins"
+
+  - owner: "UKRI"
+    key_people:
+      - title: "Chief Executive"
+        name: "Ian Chapman"
+
+
+
+
+recommendations:
+  - id: 1
+    code: "R01"
+    chapter_id: 5
+    proposal_ids: [1]
+    titles:
+      short: "Provide HMG Strategic Steer"
+      long: "Provide HMG Strategic Steer to the Nuclear Sector"
+    text: |
+      The Government should set a clear strategic direction to nuclear policy, ensuring alignment across departments, regulatory agencies and dutyholders and their supply chains. This steer should set a national priority, emphasise urgency, and balance safety with delivery.
+    scope:
+      sectors: ["civil", "defence"]
+      domains:
+        - leadership
+        - strategic_direction
+    ownership:
+      primary_owner: "No. 10"
+      co_owners: []
+      key_regulators: []
+    delivery_timeline:
+      original_text: "End of January 2026"
+      target_date: "2026-01-31"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - strategic_direction
+      - guidance
+    dependencies:
+      depends_on: []
+      enables: [2, 3, 4, 5]
+    overall_status:
+      status: "completed"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response to the recommendation."
+    updates:
+      - date: "2025-12-01"
+        status: "completed"
+        tags: []
+        title: "Prime Minister's strategic steer to the nuclear sector"
+        description: "The Government completed the first recommendation of the Nuclear Regulatory Taskforce report by issuing a strategic steer to the nuclear sector."
+        links:
+          - title: "Prime Minister's Strategic Steer to the Nuclear Sector"
+            url: "https://www.gov.uk/government/publications/prime-ministers-strategic-steer-to-the-nuclear-sector"
+        source:
+          type: "Policy Paper"
+    notes: |
+      First recommendation to be implemented. Sets the foundation for other reforms.
+
+  - id: 2
+    code: "R02"
+    chapter_id: 5
+    proposal_ids: [2]
+    titles:
+      short: "Establish Commission for Nuclear Regulation"
+      long: "Establish a collective decision-making body for nuclear regulatory decisions"
+    text: |
+      The establishment of a Commission for Nuclear Regulation to formalise collective decision making and leadership for the sector going forward.
+
+      The Commission should:
+      - Comprise of five full-time members, presided over by the Chief Nuclear Inspector (CNI). In cases of conflict, a Deputy CNI, a new statutory role, would preside. There should be two Deputy CNIs: one each for civil and defence. Independent members would be appointed by the Prime Minister based on skill, experience and judgement;
+      - Consolidate oversight and legal authority across all nuclear governance domains, safety, security, safeguards, environment, planning, and defence, into a single independent body; and
+      - Be able to rapidly convene independent expert advice.
+    scope:
+      sectors: ["civil", "defence"]
+      domains:
+        - governance
+        - regulatory_structure
+    ownership:
+      primary_owner: "Cabinet Office"
+      co_owners: []
+      key_regulators:
+        - "ONR"
+        - "Environment Agency"
+    delivery_timeline:
+      original_text: "End of 2027"
+      target_date: "2027-12-31"
+      revised_target_date: null
+      notes: "Requires primary legislation"
+    implementation_type:
+      - primary_legislation
+      - organisational_change
+    dependencies:
+      depends_on: [1]
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response. Requires primary legislation."
+    updates: []
+    notes: |
+      Major structural reform. Would consolidate decision-making currently fragmented across regulators.
+
+  - id: 3
+    code: "R03"
+    chapter_id: 5
+    proposal_ids: [2]
+    titles:
+      short: "Establish lead regulator model"
+      long: "Establish a lead regulator model with ONR as default lead regulator"
+    text: |
+      We consider that the need to reform decision-making is urgent. In advance of the establishment of a Commission, a formal system of a lead regulator role should be set up between relevant regulators, such as the ONR, DNSR, and EA. The ONR should be designated as the default lead regulator for the nuclear sector. This should be done for significant projects in order to provide leadership and reduce regulatory complexity.
+    scope:
+      sectors: ["civil", "defence"]
+      domains:
+        - governance
+        - regulatory_coordination
+    ownership:
+      primary_owner: "ONR"
+      co_owners:
+        - "Environment Agency"
+        - "Other regulators"
+      key_regulators:
+        - "ONR"
+        - "DNSR"
+        - "Environment Agency"
+    delivery_timeline:
+      original_text: "March 2026"
+      target_date: "2026-03-31"
+      revised_target_date: null
+      notes: "Interim measure pending Commission establishment"
+    implementation_type:
+      - guidance
+      - organisational_change
+    dependencies:
+      depends_on: [1]
+      enables: [2]
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Interim measure to be implemented before Commission for Nuclear Regulation is established.
+
+  - id: 4
+    code: "R04"
+    chapter_id: 5
+    proposal_ids: [2]
+    titles:
+      short: "Simplify nuclear regulatory landscape"
+      long: "Simplify the nuclear regulatory landscape by consolidating nuclear regulatory functions"
+    text: |
+      There should be a commitment, so far as possible, to only have one regulator per hazard type or regulatory function.
+      - Merge DNSR and ONR, generating a specific defence enclave.
+      - Consideration should be given to transferring other regulatory responsibilities for duplicative entities into a single regulator, for example regulation of radioactive substances or nuclear security.
+      - The ONR should be given concurrent vires for radiological substances as the EA.
+    scope:
+      sectors: ["civil", "defence"]
+      domains:
+        - regulatory_structure
+        - organisational_change
+    ownership:
+      primary_owner: "Cabinet Office"
+      co_owners:
+        - "MOD"
+        - "DESNZ"
+      key_regulators:
+        - "ONR"
+        - "DNSR"
+    delivery_timeline:
+      original_text: "March 2026"
+      target_date: "2026-03-31"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - primary_legislation
+      - organisational_change
+    dependencies:
+      depends_on: [1]
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Proposes merger of DNSR and ONR. Legislative and treaty issues to resolve.
+
+  - id: 5
+    code: "R05"
+    chapter_id: 5
+    proposal_ids: [3]
+    titles:
+      short: "Reset safety case development"
+      long: "Reset safety case development to eliminate duplication and embed simplicity"
+    text: |
+      Reset the approach to safety case development and assessment to eliminate duplication and embed simplicity. This should aim to shorten safety cases overall and return them to their original purpose as documents for use by the dutyholder to support operation.
+
+      The defence sector should realign with the Three Lines of Defence (3LoD) model in accordance with HMG's Management of Risk – Principles and Concepts. The first line undertaking the majority of technical review, the second line providing process assurance and targeted assessment of high-risk areas, and the third independent line providing assurance that management arrangements and governance frameworks operate effectively. The regulator should exist external to the 3LoD structure.
+    scope:
+      sectors: ["civil", "defence"]
+      domains:
+        - safety_case
+        - risk_management
+    ownership:
+      primary_owner: "Dutyholders"
+      co_owners:
+        - "Regulators"
+      key_regulators:
+        - "ONR"
+        - "DNSR"
+    delivery_timeline:
+      original_text: "March 2026"
+      target_date: "2026-03-31"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - guidance
+      - culture_change
+    dependencies:
+      depends_on: [1]
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Aims to simplify and shorten safety cases. Defence sector should realign with 3LoD model.
+
+  - id: 6
+    code: "R06"
+    chapter_id: 6
+    proposal_ids: [3]
+    titles:
+      short: "Define tolerability of risk"
+      long: "Government should define the tolerability of risk for nuclear"
+    text: |
+      The Government should take responsibility for defining the Tolerability of Risk for the nuclear sector. In doing this, the Government should consider the modern state of the nuclear sector, and the societal demand for its outputs across energy, decommissioning and defence. This should be clearly communicated to regulators and periodically reviewed.
+
+      The Government should make a direction to the ONR under section 92 of the Energy Act 2013 and to the EA section 40 of the Environment Act 1995 so that, in exercising their functions, risks at or below broadly acceptable levels are deemed to be ALARP and ALARA unless there are strong and compelling reasons to the contrary.
+
+      This direction and definition should form the basis of the revision of the guidance in recommendation 7.
+    scope:
+      sectors: ["civil", "defence"]
+      domains:
+        - risk_management
+        - policy
+    ownership:
+      primary_owner: "DESNZ"
+      co_owners:
+        - "DWP"
+        - "MOD"
+      key_regulators:
+        - "ONR"
+        - "Environment Agency"
+    delivery_timeline:
+      original_text: "June 2026"
+      target_date: "2026-06-30"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - secondary_legislation
+      - guidance
+    dependencies:
+      depends_on: [1]
+      enables: [7, 8]
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Requires government to take responsibility for defining tolerability of risk, currently left to regulators.
+
+  - id: 7
+    code: "R07"
+    chapter_id: 6
+    proposal_ids: [3]
+    titles:
+      short: "Review nuclear regulator guidance"
+      long: "Review nuclear regulator guidance in line with revised tolerability of risk"
+    text: |
+      Regulators should undertake an immediate review of numerical targets set in their guidance. This review should ensure alignment with the government definitions of tolerability and their application. It should also align with levels set internationally.
+
+      Regulatory guidance should be thoroughly reviewed to ensure it is consistent with a primarily non-prescriptive regulatory system. The updates to this guidance should:
+      a) Re-establish the role of SAPs/TAGs as guidance to inspectors;
+      b) Ensure consistency across the TAGs and ensure greater focus on implementing the safety principles in the SAPs rather than specific implementation practices; and
+      c) Set the expectation that it for dutyholders, not regulators, to identify applicable RGP and BAT including those from other high-hazard sectors. Challenge to what constitutes RGP should be proportionate to the risks, and the relevance of the practice.
+    scope:
+      sectors: ["civil", "defence"]
+      domains:
+        - guidance
+        - risk_management
+    ownership:
+      primary_owner: "ONR"
+      co_owners:
+        - "Environment Agency"
+      key_regulators:
+        - "ONR"
+        - "Environment Agency"
+    delivery_timeline:
+      original_text: "June 2026"
+      target_date: "2026-06-30"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - guidance
+    dependencies:
+      depends_on: [6]
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Should follow from R6. Review of SAPs, TAGs and numerical targets.
+
+  - id: 8
+    code: "R08"
+    chapter_id: 6
+    proposal_ids: [3]
+    titles:
+      short: "Define proportionality in HSWA"
+      long: "Define the meaning of proportionality in the Health and Safety at Work Act"
+    text: |
+      Government should propose secondary legislation under section 50 of HSWA which clarifies the law. The test should not be whether a measure is grossly disproportionate, but instead what is proportionate taking into account a multi-faceted consideration of the level of risk.
+
+      This secondary legislation should confirm that whether an action is proportionate to that risk shall be established by reference to:
+      a) the nature of the hazard concerned;
+      b) the likelihood of that hazard occurring;
+      c) the scale of the potential impact in terms of the degree of harm and the numbers of individuals who might reasonably foreseeably be affected;
+      d) the cost, time and difficulty involved;
+      e) any relevant policy guidance established by the Secretary of State or the relevant regulator; and
+      f) whether undertaking the measure might prevent a desirable activity from taking place (either at all, to a particular extent, or in a particular way).
+
+      R2P2 should be updated to reflect this secondary legislation and err on the side of proportionality, taking into account the nature of the risk.
+    scope:
+      sectors: ["civil", "defence"]
+      domains:
+        - legislation
+        - risk_management
+    ownership:
+      primary_owner: "DESNZ"
+      co_owners:
+        - "ONR"
+        - "EA"
+        - "HSE"
+        - "MOD"
+        - "DEFRA"
+        - "DWP"
+      key_regulators:
+        - "ONR"
+        - "Environment Agency"
+        - "HSE"
+    delivery_timeline:
+      original_text: "June 2026"
+      target_date: "2026-06-30"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - secondary_legislation
+    dependencies:
+      depends_on: [6]
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Clarifies law on proportionality. Moves away from 'gross disproportion' test.
+
+  - id: 9
+    code: "R09"
+    chapter_id: 6
+    proposal_ids: [3]
+    titles:
+      short: "Enterprise-wide portfolio risk management"
+      long: "Establish an enterprise-wide system of portfolio risk management across defence and decommissioning sectors"
+    text: |
+      Develop and implement systems that allow portfolio risks across defence and decommissioning sectors, to be properly managed, while maintaining the respective duties and responsibilities of dutyholders and regulators.
+
+      Adopt a system of top-down risk apportionment which accounts for the interdependency of activities across each sector portfolio risks to produce an overall ALARP position and achieve defence and decommissioning missions.
+    scope:
+      sectors: ["defence"]
+      domains:
+        - risk_management
+        - governance
+    ownership:
+      primary_owner: "MOD"
+      co_owners:
+        - "NDA"
+      key_regulators:
+        - "ONR"
+        - "DNSR"
+    delivery_timeline:
+      original_text: "December 2027"
+      target_date: "2027-12-31"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - organisational_change
+      - guidance
+    dependencies:
+      depends_on: [6]
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Addresses portfolio-level risk management across defence and decommissioning.
+
+  - id: 10
+    code: "R10"
+    chapter_id: 6
+    proposal_ids: [3]
+    titles:
+      short: "Prevent conflation of nuclear and conventional risks"
+      long: "Review arrangements to prevent conflation of nuclear and conventional risks"
+    text: |
+      Dutyholders should work with the ONR, DNSR and EA to distinguish radiological and nuclear risks from conventional risks and change arrangements accordingly, which could include disapplying relevant licence/authorisation conditions.
+    scope:
+      sectors: ["civil", "defence"]
+      domains:
+        - risk_management
+        - licensing
+    ownership:
+      primary_owner: "Dutyholders"
+      co_owners:
+        - "Regulators"
+      key_regulators:
+        - "ONR"
+        - "DNSR"
+        - "Environment Agency"
+    delivery_timeline:
+      original_text: "December 2026"
+      target_date: "2026-12-31"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - guidance
+      - licensing
+    dependencies:
+      depends_on: []
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Addresses over-application of nuclear standards to conventional hazards on nuclear sites.
+
+  - id: 11
+    code: "R11"
+    chapter_id: 7
+    proposal_ids: [5]
+    titles:
+      short: "Amend Habitats Regulations"
+      long: "Apply or modify the Habitats Regulations to reduce costs whilst protecting the environment"
+    text: |
+      Apply or modify the 2017 Habitats Regulations to:
+      a) Remove the need to prove a negative when drawing a conclusion on impacts, so that the wording of the regulation refers to the need for scientific evidence and excludes merely hypothetical or speculative risks.
+      b) Define 'compensatory measures' to expressly exclude the need for like-for-like compensation and instead accept that overall enhancement and measures to support the coherence of protected sites is sufficient.
+      c) Establish that de minimis effects do not constitute an adverse effect on integrity, including where they have a de minimis contribution to in-combination effects with other projects.
+      d) Legislate to remove the requirement for separate HRA assessments to be completed for each regulator at different stages, unless there has been a material change to a project. This could be achieved by "deeming" that the first assessment meets the tests of any subsequent approval unless there is a fundamental change in circumstances.
+      e) Modify the 2017 Habitats Regulations, to allow mitigation measures to be considered at Stage 1 of the Habitats Regulations assessment process.
+    scope:
+      sectors: ["civil"]
+      domains:
+        - environmental
+        - legislation
+    ownership:
+      primary_owner: "DEFRA"
+      co_owners: []
+      key_regulators:
+        - "Environment Agency"
+        - "Natural England"
+    delivery_timeline:
+      original_text: "December 2027"
+      target_date: "2027-12-31"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - primary_legislation
+      - secondary_legislation
+    dependencies:
+      depends_on: []
+      enables: [12]
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Substantial reform of Habitats Regulations assessment regime.
+
+  - id: 12
+    code: "R12"
+    chapter_id: 7
+    proposal_ids: [5]
+    titles:
+      short: "Alternative Habitats Regulations pathway"
+      long: "Create alternative pathway to comply with the Habitats Regulations"
+    text: |
+      Allow developers to comply with the Habitats Regulations requirements by paying a substantial fixed contribution to Natural England at the outset. DEFRA should create a predictable, bright line procedure and set of fees based on comparable recent projects.
+
+      This would reduce costs to developers and increase the environmental benefit, channelling money from surveys, assessments, and disputes directly towards nature preservation and recovery.
+    scope:
+      sectors: ["civil"]
+      domains:
+        - environmental
+        - funding
+    ownership:
+      primary_owner: "DEFRA"
+      co_owners: []
+      key_regulators:
+        - "Natural England"
+    delivery_timeline:
+      original_text: "December 2027"
+      target_date: "2027-12-31"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - primary_legislation
+      - funding
+    dependencies:
+      depends_on: [11]
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Proposes payment to nature fund as alternative to site-specific HRA process.
+
+  - id: 13
+    code: "R13"
+    chapter_id: 7
+    proposal_ids: [3]
+    titles:
+      short: "Proportionality in EIA regime"
+      long: "Create more proportionality in the Environmental Impact Assessment (EIA) regime"
+    text: |
+      EIA Regulations should be amended to:
+      a) Include a "principle of proportionality" which requires decision-makers to consider existing decisions (to discourage a ratcheting effect), and the extent to which outstanding matters will be addressed through other regulatory regimes. Only information necessary to determine the issue before them should be required.
+      b) Allow relevant departments to issue binding statutory guidance requiring decision-makers to ask only for proportionate scoping, surveys and assessments.
+      c) Make clear, through an interpretive provision, that "likely significant effects" does not require complete, as opposed to proportionate, data about a potential impact.
+      d) Affirm the Rochdale Envelope. It should be acceptable to grant consent while some surveys or design details are still outstanding. Worst-case assumptions should be case-specific and evidence-based, not drawn automatically from stricter precedents elsewhere.
+      e) Where there is a dispute about the level of surveys or assessments, the Secretary of State should, as part of any DCO decision, specify the most proportionate level they consider acceptable to set expectations for future decisions and projects. The Secretary of State should, when giving such guidance, have significant regard to the potential for delay and cost on development.
+    scope:
+      sectors: ["civil"]
+      domains:
+        - environmental
+        - planning
+    ownership:
+      primary_owner: "MHCLG"
+      co_owners: []
+      key_regulators:
+        - "Environment Agency"
+        - "Planning Inspectorate"
+    delivery_timeline:
+      original_text: "December 2027"
+      target_date: "2027-12-31"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - secondary_legislation
+      - guidance
+    dependencies:
+      depends_on: []
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Addresses growth in length and complexity of EIAs.
+
+  - id: 14
+    code: "R14"
+    chapter_id: 7
+    proposal_ids: [5]
+    titles:
+      short: "Modular Low-Carbon Acceleration Zones"
+      long: "Allow the development of Modular Low-Carbon Acceleration Zones"
+    text: |
+      MHCLG should legislate to allow the development of “Modular Low-Carbon Acceleration Zones” and utilise the approach for existing nuclear defence sites and GBE-N sites where multiple reactors are, or could be, proposed. The approach taken in Germany (noted above) in relation to wind development is useful. An approach like this could be beneficial in England. A proposed outline would be as follows:
+      a) Assessment and Zone Creation: The promoter, developer, or government must carry out a Strategic Environmental Assessment (SEA) for areas chosen for new nuclear projects. This assessment, based on the maximum parameters, will highlight which parts of the area could be most affected by development. This defines a ‘zone’.
+      b) Plan: After the assessment and a period for public feedback, the Secretary of State will create a plan for the zone. This plan will set rules to reduce environmental harm, such as keeping development away from sensitive sites or limiting building heights. It will also decide how much developers must pay to make up for any remaining environmental impacts. Natural England will use this money for conservation or improvement projects in the area.
+      c) Approval: The Secretary of State can only approve the plan if it clearly improves overall environmental outcomes, considering the benefits of nuclear power for Net Zero and climate change.
+      d) Developer Contributions: Developers must pay a fee based on either the size of the development zone or the amount of energy the project will produce.
+      e) Simplified Assessments Requirements: After the Secretary of State successfully designates a plan, developers no longer need to produce individual Environmental Impact Assessments and Habitats Regulations Assessments (if Recommendation 12) is not accepted) for any developments brought forward in the zone. Instead, individual projects must just be compliant with the plan and pay any required environmental contributions as their project progresses.
+      f) Sensitive Sites Excluded: This system does not apply to development directly in highly sensitive areas like ancient woodlands, National Parks, or National Landscapes.
+      g) Planning Acceptance: If a plan exists, any negative impacts from development are considered acceptable for planning purposes, unless there are highly exceptional circumstances.
+    scope:
+      sectors: ["civil", "defence"]
+      domains:
+        - planning
+        - environmental
+    ownership:
+      primary_owner: "MHCLG"
+      co_owners: []
+      key_regulators:
+        - "Planning Inspectorate"
+        - "Natural England"
+    delivery_timeline:
+      original_text: "December 2027"
+      target_date: "2027-12-31"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - primary_legislation
+    dependencies:
+      depends_on: []
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Enables fleet approach via zone-based strategic environmental assessment.
+
+  - id: 15
+    code: "R15"
+    chapter_id: 7
+    proposal_ids: [2]
+    titles:
+      short: "One and done assessments"
+      long: "Enable 'one and done' assessments and reverse the Finch judgment for low-carbon electricity projects"
+    text: |
+      MHCLG should legislate so that an environmental assessment completed under one regulatory regime is accepted as sufficient for other regimes, unless there are compelling reasons to require additional information.
+
+      The Government should also legislate to overturn the Finch judgment for low-carbon infrastructure. This would establish that if a later indirect effect of a development will be assessed under a separate EIA, or has previously been assessed, it does not need to be assessed as an indirect effect of the original development.
+    scope:
+      sectors: ["civil"]
+      domains:
+        - environmental
+        - planning
+    ownership:
+      primary_owner: "MHCLG"
+      co_owners: []
+      key_regulators:
+        - "Environment Agency"
+        - "Planning Inspectorate"
+    delivery_timeline:
+      original_text: "December 2027"
+      target_date: "2027-12-31"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - primary_legislation
+    dependencies:
+      depends_on: []
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Addresses duplicative assessments and Supreme Court Finch judgment impact.
+
+  - id: 16
+    code: "R16"
+    chapter_id: 7
+    proposal_ids: [4]
+    titles:
+      short: "Increase environmental data sharing"
+      long: "Increase data-sharing, and transparency, on environmental data"
+    text: |
+      DEFRA should use its existing Data Services Platform as a single home for Environmental Impact Assessment (EIA) related data. DEFRA should curate and host these datasets in line with Cabinet Office technical and metadata standards that make them interoperable. Any additional data that developers collect as part of the EIA process should be added to the repository as a condition of approval.
+
+      The NDA should make available any environmental survey and data assessment to potential developers who could utilise their sites.
+
+      The EIA Regulations and the Habitats Regulations should be amended so that developers are required to publish high-level cost estimates of the assessment process and any mitigations that are reasonably capable of costing more than £500,000. Where such mitigation is reported, the decisionmaker must decide whether the mitigation is proportionate and explain why the mitigation does not discourage development coming forward in the future. This will help to improve transparency about the cost of mitigations and help assess their proportionality.
+    scope:
+      sectors: ["civil"]
+      domains:
+        - environmental
+        - data_sharing
+    ownership:
+      primary_owner: "DEFRA"
+      co_owners:
+        - "DESNZ"
+        - "NDA"
+      key_regulators:
+        - "Environment Agency"
+    delivery_timeline:
+      original_text: "June 2026"
+      target_date: "2026-06-30"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - guidance
+      - secondary_legislation
+    dependencies:
+      depends_on: []
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Addresses lack of central repository for environmental data.
+
+  - id: 17
+    code: "R17"
+    chapter_id: 7
+    proposal_ids: [5]
+    titles:
+      short: "Statutory timelines for environmental permitting"
+      long: "Implement statutory timelines for environmental permitting"
+    text: |
+      Implement statutory timelines for environmental permitting. The Environmental Permitting (England and Wales) Regulations 2016 should be amended to:
+      a) Require all applications have a time limit for decision-making no longer than 42 days (and this should not, as is currently the case, be a basis for prolonging the pre-application stage).
+      b) Limit mutually agreed extensions to a single extension of 56 days. If no permit has been granted in this timeframe, the applicant should have the right to appeal to the Secretary of State, who must decide within 30 days.
+    scope:
+      sectors: ["civil"]
+      domains:
+        - permitting
+        - environmental
+    ownership:
+      primary_owner: "DEFRA"
+      co_owners:
+        - "DESNZ"
+      key_regulators:
+        - "Environment Agency"
+    delivery_timeline:
+      original_text: "December 2027"
+      target_date: "2027-12-31"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - secondary_legislation
+    dependencies:
+      depends_on: []
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Addresses long delays in environmental permitting decisions.
+
+  - id: 18
+    code: "R18"
+    chapter_id: 7
+    proposal_ids: [5]
+    titles:
+      short: "Modify BNG implementation"
+      long: "Modify the implementation of Biodiversity Net Gain (BNG)"
+    text: |
+      When BNG is extended over to the NSIP/DCO process, it should, in the case of low-carbon infrastructure:
+      a) Exclude land used for temporary purposes.
+      b) Cover only land actually affected, rather than the entire Order Limits.
+      c) Include preserved habitats as a positive outcome of the end state.
+      d) And keep to one BNG calculation throughout, even if policy changes during the approvals process.
+
+      Decommissioning activities (both civil and defence) should be entirely excluded from BNG requirements.
+    scope:
+      sectors: ["civil", "defence"]
+      domains:
+        - environmental
+        - planning
+    ownership:
+      primary_owner: "DEFRA"
+      co_owners: []
+      key_regulators:
+        - "Natural England"
+    delivery_timeline:
+      original_text: "December 2026"
+      target_date: "2026-12-31"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - secondary_legislation
+      - guidance
+    dependencies:
+      depends_on: []
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Addresses perverse outcomes of BNG for nuclear, especially decommissioning.
+
+  - id: 19
+    code: "R19"
+    chapter_id: 7
+    proposal_ids: [5]
+    titles:
+      short: "Remove or constrain National Park Duty"
+      long: "Remove or constrain the National Park Duty in Levelling Up and Regeneration Act 2023"
+    text: |
+      Amend LURA to remove or constrain the duty for local authorities to 'seek and further' national parks and landscapes by restoring the previous 'have regard to' language.
+    scope:
+      sectors: ["civil"]
+      domains:
+        - planning
+        - environmental
+    ownership:
+      primary_owner: "DEFRA"
+      co_owners: []
+      key_regulators:
+        - "Natural England"
+    delivery_timeline:
+      original_text: "December 2027"
+      target_date: "2027-12-31"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - primary_legislation
+    dependencies:
+      depends_on: []
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Addresses ambiguous 'seek to further' duty causing delays and litigation.
+
+  - id: 20
+    code: "R20"
+    chapter_id: 7
+    proposal_ids: [5]
+    titles:
+      short: "Amend judicial review cost caps"
+      long: "Amend the cost cap for judicial reviews and limit legal challenges to NSIPs"
+    text: |
+      Following consultation with the Lord Chancellor, enact the following changes to the operation of the existing cost caps:
+      a) Where the court determines, in any part of the proceedings, that there has been a "misuse of judicial review", there should be an automatic removal of the costs protection. This should be coupled with a requirement that the counsel and solicitors certify, as part of a claim, that the grounds have a more likely than not chance of success.
+      b) The cost cap is raised to take account of inflation since 2013 and linked to inflation going forward. Courts should, in addition, be issued guidance which encourages them to set higher caps, or maximally utilise their discretion, where there is a misuse of the process or where it is clear the intent is to delay development.
+      c) The cost cap be cascaded, being doubled for each stage of a challenge (e.g. from £10,000 at the first instance to £20,000 at the Court of Appeal).
+      d) Where crowd funding is utilised, the cap should be set at 70% of total funds raised (e.g. £70,000 if a campaigning group has raised £100,000 for a legal action). We consider that 70% represents a figure which balances access to justice, and the need for nuclear development without delay.
+      e) The costs cap for the decision-maker being challenged should always be set at a level which is at least 5 times the claimant’s cap in order to balance the relationship between a challenger and the decision-maker.
+      If necessary, prior to the enactment of the above, amend the Aarhus Convention under Article 14 of the Convention which endorse the principle of the measures above. If the principle of these measures is not endorsed, the UK should dispute any findings against it. Ongoing membership to the Convention is a matter for the UK Government.
+      The principle of a ‘single bite of the cherry’, and the above measures, should be extended beyond just NSIPs to nuclear site licensing and permitting decisions. If claimants lose on an issue relating to the DCO, they should not be able to appeal to the Court of Appeal.
+    scope:
+      sectors: ["civil"]
+      domains:
+        - legal
+        - planning
+    ownership:
+      primary_owner: "DEFRA"
+      co_owners:
+        - "MOJ"
+      key_regulators: []
+    delivery_timeline:
+      original_text: "December 2027"
+      target_date: "2027-12-31"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - primary_legislation
+      - secondary_legislation
+    dependencies:
+      depends_on: []
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Addresses risk and cost of repeated judicial reviews on nuclear projects.
+
+  - id: 21
+    code: "R21"
+    chapter_id: 7
+    proposal_ids: [4]
+    titles:
+      short: "Indemnify developers during judicial review"
+      long: "Indemnify nuclear developers against damages during judicial review"
+    text: |
+      This would mean indemnifying nuclear developers against any damages they incur as a result of proceeding with their project while a judicial review is being decided. The Civil Procedure Rules should be amended so that any interim injunctions would be limited to irreversible works which relate to the grounds of challenge.
+    scope:
+      sectors: ["civil"]
+      domains:
+        - legal
+        - funding
+    ownership:
+      primary_owner: "HM Treasury"
+      co_owners: []
+      key_regulators: []
+    delivery_timeline:
+      original_text: "June 2026"
+      target_date: "2026-06-30"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - funding
+      - secondary_legislation
+    dependencies:
+      depends_on: []
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Allows developers to proceed during judicial review without risk of damages.
+
+  - id: 22
+    code: "R22"
+    chapter_id: 7
+    proposal_ids: [3]
+    titles:
+      short: "Proportionate regulatory control for decommissioning"
+      long: "Commence proportionate regulatory control of radioactively contaminated structures"
+    text: |
+      DESNZ to commence sections 303 and 304 of the Energy Act 2023 and propose additional secondary legislation amending the Environmental Permitting Regulations so that the legislation is in place by December 2026.
+
+      Given the statutory and long-term nature of the NDA and its mission, government should mandate the NDA to undertake work with the regulators to propose a more suitable and flexible policy, and a more proportionate legislative and regulatory regime with respect to site end-states.
+    scope:
+      sectors: ["civil"]
+      domains:
+        - decommissioning
+        - permitting
+    ownership:
+      primary_owner: "DESNZ"
+      co_owners: []
+      key_regulators:
+        - "ONR"
+        - "Environment Agency"
+    delivery_timeline:
+      original_text: "December 2026"
+      target_date: "2026-12-31"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - secondary_legislation
+    dependencies:
+      depends_on: []
+      enables: [23]
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Implements PRC regime from Energy Act 2023. Potential £6bn savings for NDA.
+
+  - id: 23
+    code: "R23"
+    chapter_id: 7
+    proposal_ids: [3]
+    titles:
+      short: "Proportionality in decommissioning permitting"
+      long: "Create proportionality in permitting for decommissioning activities"
+    text: |
+      a) DEFRA to amend the Environmental Permitting (England and Wales) Regulations 2016 (EPRs) to create an exemption for stockpiling materials on an existing nuclear site subject to generic conditions. This should be agreed between the NDA, and the Secretary of State. This system should be in place by end of December 2026.
+      b) DESNZ legislates for “constrained discretion” in the context of decommissioning activities (covering the EPRs, CDM and other legislation). Should there be a circumstance in which an activity concerns multiple regulators, a single lead regulator should be designated to make a decision. Using their constrained discretion, a lead regulator should be able to grant approvals where inconsistencies across regulations apply, taking into account overarching outcomes.
+      c) Nuclear Reactors (Environmental Impact Assessment for Decommissioning) Regulations be amended to avoid the need for duplicative assessments. Government must legislate to ensure there is no more than one Environmental Impact Assessment. In tandem, the Government should seek an amendment to the Aarhus Convention to ensure that there can be no finding against the UK in respect of this change.
+      d) Going forward, there should only be a requirement to comply with guidance that existed at the outset of an assessment unless otherwise exceptionally specified. More specifically, the EA should not require the application of an updated GRA for LLWRs in relation to the ESC prepared for the GRA and that a proportionate and enabling approach is taken to reviewing updates to the ESC.
+      e) MHCLG should amend the Town and Country Planning (General Permitted Development) (England) Order 2015 to include Permitted Development Rights which are granted to the NDA. These rights should be equivalent to powers granted to statutory undertakers.
+    scope:
+      sectors: ["civil"]
+      domains:
+        - decommissioning
+        - permitting
+    ownership:
+      primary_owner: "DEFRA"
+      co_owners:
+        - "DESNZ"
+        - "MHCLG"
+        - "NDA"
+        - "EA"
+      key_regulators:
+        - "ONR"
+        - "Environment Agency"
+    delivery_timeline:
+      original_text: "December 2026"
+      target_date: "2026-12-31"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - secondary_legislation
+      - guidance
+    dependencies:
+      depends_on: [22]
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Comprehensive reform of decommissioning permitting regime.
+
+  - id: 24
+    code: "R24"
+    chapter_id: 8
+    proposal_ids: [5]
+    titles:
+      short: "Improve CNP application"
+      long: "Improving the application of Critical National Priority (CNP)"
+    text: |
+      The CNP (as contained in EN-1 and draft EN-7) should be updated by DESNZ to strengthen the policy presumption by removing the words "in general", and "it is likely" and replacing the words "as a starting point" with stronger language which reflects the need for new low-carbon infrastructure.
+
+      The Secretary of State for Housing, Communities & Local Government should update the NPPF to contain the same CNP presumption. In due course, the Government should issue a statutory National Development Management Policy for low carbon infrastructure, including for nuclear development below 50 MWe and non-generating supporting infrastructure which contains the same CNP, and policy tests contained in EN-7.
+    scope:
+      sectors: ["civil"]
+      domains:
+        - planning
+        - policy
+    ownership:
+      primary_owner: "DESNZ"
+      co_owners: []
+      key_regulators:
+        - "Planning Inspectorate"
+    delivery_timeline:
+      original_text: "June 2026"
+      target_date: "2026-06-30"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - guidance
+      - policy
+    dependencies:
+      depends_on: []
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Strengthens Critical National Priority policy for nuclear.
+
+  - id: 25
+    code: "R25"
+    chapter_id: 8
+    proposal_ids: [5]
+    titles:
+      short: "Update DCO guidance"
+      long: "Update guidance from MHCLG to streamline the Development Consent Order (DCO) regime"
+    text: |
+      MHCLG should issue guidance that:
+        a) Requires consideration of project importance when deciding on acceptance;
+        b) Secures the benefits of removing statutory consultation; and
+        c) Encourages continuous improvement in examination timescales and proportionality.
+      Statutory guidance should:
+        a) Expressly confirm that consultation and engagement should not be assessed during the acceptance phase; the scope and approach to consultation should be left to the developer’s discretion. There should be no obligation to provide a draft EIA as part of consultation. Guidance may recognise the benefits of consultation but it should not create an expectation that it must always occur;
+        b) Establish a strong presumption that pre-examination periods are expected to finish in under four months. For projects designated as critical national priorities, rejection at the acceptance stage should only occur if there is strong evidence that any deficiencies identified at the application submission stage cannot be remedied within that presumptive pre-examination period;
+        c) Affirm the test on whether an application is accepted for examination should simply be a validation exercise, whereby the Inspectorate should consider whether the required application documents have been submitted. The test on whether those application documents are "satisfactory" must require fundamental issues with the application documents;
+        d) Establish that where a project is designated as a critical national priority, a decision on whether to refuse an application for development consent at the acceptance stage can only be made by the Secretary of State of the relevant department. Where the Planning Inspectorate suggests a project should be refused, it must communicate the basis of its conclusions to the applicant, providing a reasonable period for the applicant to respond. That information alone should be provided to the relevant Secretary of State who will take a decision on whether to refuse the application;
+        e) Affirm there must be compelling evidence to re-examine an issue or approach where that particular issue or approach has a precedent in a previous DCO application and that has been approved by the Secretary of State;
+        f) Establish the examination period should be shorter if a technology has previously been consented unless there are significant issues. The examining authority should seek approval from the relevant Secretary of State where an examination is proposed to be longer than the same technology as compared to the shortest precedent;
+        g) Provide that an interested party should be liable for costs where it raises the same matter, with no new substance (excluding signposting).
+      MHCLG should update the Planning Inspectorate’s Framework Document to reflect the above.
+    scope:
+      sectors: ["civil"]
+      domains:
+        - planning
+    ownership:
+      primary_owner: "MHCLG"
+      co_owners: []
+      key_regulators:
+        - "Planning Inspectorate"
+    delivery_timeline:
+      original_text: "June 2026"
+      target_date: "2026-06-30"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - guidance
+    dependencies:
+      depends_on: []
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Addresses delays in DCO process caused by burdensome requirements.
+
+  - id: 26
+    code: "R26"
+    chapter_id: 8
+    proposal_ids: [5]
+    titles:
+      short: "Interim DCO Recommendation Reports"
+      long: "Create Interim Development Consent Order (DCO) Recommendation Reports"
+    text: |
+      Government should legislate a requirement that each examining authority publishes an "Interim Recommendation Report" prior to the first deadline in an examination. This should set out the main areas to be examined, and representations may be disregarded save to the extent that the Examining Authority considers them important or relevant. This should mirror a final recommendation report as closely as possible, and replace the current list of "Initial Assessment of Principal Issues" which lacks detail.
+    scope:
+      sectors: ["civil"]
+      domains:
+        - planning
+    ownership:
+      primary_owner: "MHCLG"
+      co_owners: []
+      key_regulators:
+        - "Planning Inspectorate"
+    delivery_timeline:
+      original_text: "December 2027"
+      target_date: "2027-12-31"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - primary_legislation
+    dependencies:
+      depends_on: []
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Provides early clarity on ExA views to streamline examination.
+
+  - id: 27
+    code: "R27"
+    chapter_id: 8
+    proposal_ids: [5]
+    titles:
+      short: "Require 'minded to' letters"
+      long: "Amend the Planning Act 2008 to require 'minded to' letters"
+    text: |
+      MHCLG should legislate, in the event of a delay, a requirement for the Secretary of State to issue a "minded to" letter which sets out the statement of reasons, outlining matters which have been determined, and those areas where the Secretary of State requires further information.
+
+      Delays should be exceptional, and where a delay is sought, the relevant Secretary of State should seek the Prime Minister's approval to any such delay.
+    scope:
+      sectors: ["civil"]
+      domains:
+        - planning
+    ownership:
+      primary_owner: "MHCLG"
+      co_owners: []
+      key_regulators:
+        - "Planning Inspectorate"
+    delivery_timeline:
+      original_text: "December 2027"
+      target_date: "2027-12-31"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - primary_legislation
+    dependencies:
+      depends_on: []
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Addresses delays in post-examination decision-making.
+
+  - id: 28
+    code: "R28"
+    chapter_id: 8
+    proposal_ids: [5]
+    titles:
+      short: "Reinstate Model Provisions"
+      long: "Reinstate the Infrastructure Planning (Model Provisions) (England and Wales) Order 2009"
+    text: |
+      MHCLG should legislate to reinstate the Model Provisions. These Model Provisions should include:
+      a) Standard Requirements ensuring management plans are "substantially in accordance" with outline documents;
+      b) Provisions enabling compulsory acquisition of rights for utility works;
+      c) Provisions allowing variations that deliver environmentally better solutions;
+      d) Provisions ensuring overlapping consents do not lead to enforcement action;
+      e) Time periods for consultation and decision-making not exceeding 28 days (42 for protective provisions);
+      f) Acceptable protective provisions for statutory undertakers; and
+      g) Default provisions to be utilised where disputes exist.
+
+      Statutory guidance should say these provisions should be accepted unless there is a fundamental and compelling reason not to.
+    scope:
+      sectors: ["civil"]
+      domains:
+        - planning
+    ownership:
+      primary_owner: "MHCLG"
+      co_owners: []
+      key_regulators:
+        - "Planning Inspectorate"
+    delivery_timeline:
+      original_text: "December 2027"
+      target_date: "2027-12-31"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - secondary_legislation
+    dependencies:
+      depends_on: []
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Addresses treatment of every project as novel.
+
+  - id: 29
+    code: "R29"
+    chapter_id: 8
+    proposal_ids: [5]
+    titles:
+      short: "Consider repeal of section 150"
+      long: "Consider repeal of section 150 of the Planning Act"
+    text: |
+      MHCLG should implement a 'one stop shop' for permits, potentially through repeal of section 150 of the Planning Act 2008, or alternatively remove all of the consents caught by that provision using secondary legislation.
+    scope:
+      sectors: ["civil"]
+      domains:
+        - planning
+    ownership:
+      primary_owner: "MHCLG"
+      co_owners: []
+      key_regulators:
+        - "Environment Agency"
+        - "Planning Inspectorate"
+    delivery_timeline:
+      original_text: "December 2027"
+      target_date: "2027-12-31"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - primary_legislation
+    dependencies:
+      depends_on: []
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Reinforces 'one-stop-shop' purpose of Planning Act.
+
+  - id: 30
+    code: "R30"
+    chapter_id: 8
+    proposal_ids: [5]
+    titles:
+      short: "Establish DCO requirements discharge unit"
+      long: "Establish a unit to discharge Development Consent Order (DCO) requirements"
+    text: |
+      DESNZ and MOD should establish a unit which discharges DCO Requirements. Guidance issued by MHCLG should be updated to endorse the use of this unit as the discharging authority for DCOs relating to nuclear development. Local authority involvement in the discharge of conditions can be secured through a requirement for consultation prior to submission to the Department.
+    scope:
+      sectors: ["civil", "defence"]
+      domains:
+        - planning
+    ownership:
+      primary_owner: "DESNZ"
+      co_owners:
+        - "MOD"
+        - "MHCLG"
+      key_regulators: []
+    delivery_timeline:
+      original_text: "June 2026"
+      target_date: "2026-06-30"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - organisational_change
+      - guidance
+    dependencies:
+      depends_on: []
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Centralises DCO requirements discharge. Based on DfT National Case Unit model.
+
+  - id: 31
+    code: "R31"
+    chapter_id: 8
+    proposal_ids: [5]
+    titles:
+      short: "Streamline planning via SDOs"
+      long: "Streamline the conventional planning regime via Special Development Orders"
+    text: |
+      MHCLG should allow developers of nuclear development and decommissioning projects to apply for a Special Development Order. This route should be optional, with a fixed government decision deadline of six months from application submission.
+
+      Government should legislate that there should be an automatic grant of planning permission if no decision is made within 8 weeks for applications which continue to be made to local authorities.
+
+      It should, using powers under the Planning and Infrastructure Bill, restrict the refusal of planning applications for nuclear and nuclear-related development which continue to be made to local authorities.
+    scope:
+      sectors: ["civil", "defence"]
+      domains:
+        - planning
+    ownership:
+      primary_owner: "DESNZ"
+      co_owners:
+        - "MOD"
+        - "MHCLG"
+      key_regulators: []
+    delivery_timeline:
+      original_text: "June 2026"
+      target_date: "2026-06-30"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - secondary_legislation
+      - primary_legislation
+    dependencies:
+      depends_on: []
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Provides faster route for sub-50MW nuclear and decommissioning projects.
+
+  - id: 32
+    code: "R32"
+    chapter_id: 8
+    proposal_ids: [5]
+    titles:
+      short: "Encourage fleet approaches in EN-7"
+      long: "Encourage fleet approaches in National Policy Statement EN-7"
+    text: |
+      DESNZ should amend EN-7 to include a statement that where adverse effects arise as a result of the adoption of a fleet approach, the adverse impact will not be a basis for refusal unless exceptional circumstances apply. It is critical that this position is not diluted through additional hurdles.
+
+      The policy should expressly state that there is very large weight to be attached to the policy of standardisation. The test should make clear that if an adverse impact results from an approach already accepted in a previous application the "starting points" in relation to the CNP should also apply.
+    scope:
+      sectors: ["civil"]
+      domains:
+        - planning
+        - policy
+    ownership:
+      primary_owner: "DESNZ"
+      co_owners:
+        - "MHCLG"
+      key_regulators:
+        - "Planning Inspectorate"
+    delivery_timeline:
+      original_text: "December 2026"
+      target_date: "2026-12-31"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - policy
+    dependencies:
+      depends_on: []
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Critical for enabling fleet approach to nuclear deployment.
+
+  - id: 33
+    code: "R33"
+    chapter_id: 8
+    proposal_ids: [5]
+    titles:
+      short: "New pathway for semi-urban power stations"
+      long: "Create a new pathway to allow semi-urban power stations"
+    text: |
+      DESNZ should amend EN-7 so that is provides two routes open to LWRs for complying with SUPDC: either compliance with the methodology, or via a new 28-day process culminating in an approval from the Secretary of State or the Commission (if established). This process should oblige the Government (or, if established, the Commission) to confirm that it has no objections in principle to a given proposal, in light of the safety which can be assured via the nuclear site licensing, and REPPIR19.
+
+      The ONR should revise SUPDC to account for scientific and technological progress since the original system was created.
+    scope:
+      sectors: ["civil"]
+      domains:
+        - planning
+        - siting
+    ownership:
+      primary_owner: "DESNZ"
+      co_owners: []
+      key_regulators:
+        - "ONR"
+    delivery_timeline:
+      original_text: "December 2026"
+      target_date: "2026-12-31"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - policy
+      - guidance
+    dependencies:
+      depends_on: []
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Addresses outdated SUPDC methodology from 1967 that restricts siting.
+
+  - id: 34
+    code: "R34"
+    chapter_id: 8
+    proposal_ids: [5]
+    titles:
+      short: "Proportionate OPZs and DEPZs"
+      long: "Define proportionate Outline Planning Zones and Detailed Emergency Planning Zones under REPPIR19"
+    text: |
+      ONR and UKHSA should be asked to calculate revised default Outline Planning Zones (OPZs) for reactors of differing types and sizes, based on best scientific information. These would not prevent developers from proposing smaller OPZs if warranted. This should, in turn, be used to amend the default distances in Schedule 5 of REPPIR19. Regulations should further be amended that distances in excess of the new defaults cannot be imposed without the consent of the Secretary of State or Commission (if established).
+
+      Government should amend the regulations to allow for an appeals process to the Secretary of State or the Commission (if established) in the event of local authority determinations on DEPZs which are disputed. In addition, regulation 8 of REPPIR19 should be amended to impose a fixed time limit of 12 weeks for determination and only allow re-determination with the consent of the ONR, or the Commission (if established).
+    scope:
+      sectors: ["civil"]
+      domains:
+        - emergency_planning
+        - siting
+    ownership:
+      primary_owner: "DESNZ"
+      co_owners:
+        - "ONR"
+        - "UKHSA"
+      key_regulators:
+        - "ONR"
+        - "UKHSA"
+    delivery_timeline:
+      original_text: "December 2026"
+      target_date: "2026-12-31"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - secondary_legislation
+      - guidance
+    dependencies:
+      depends_on: []
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Addresses outdated default planning zones that don't reflect modern reactor designs.
+
+  - id: 35
+    code: "R35"
+    chapter_id: 8
+    proposal_ids: [2]
+    titles:
+      short: "Streamline regulatory justification"
+      long: "Streamline regulatory justification"
+    text: |
+      Propose legislation that would deem the grant of a planning permission, the completion of Stage 2 of the GDA, or the grant of a nuclear site licence for a nuclear installation to be a justified practice.
+
+      The Secretary of State for Environment, Food and Rural Affairs should issue a Regulation 12 determination that 'the use of ionising radiation for the generation of electricity from nuclear energy using uranium oxide fuel of low enrichment in fissile content in light water cooled, water moderated thermal reactors' is justified.
+
+      Given we are not persuaded that there is a legal impediment to this route, in the event this target is not met, Government should propose amending the regulations via primary legislation, deeming that light-water reactors are deemed to be justified.
+    scope:
+      sectors: ["civil"]
+      domains:
+        - licensing
+        - regulatory_process
+    ownership:
+      primary_owner: "DESNZ"
+      co_owners:
+        - "DEFRA"
+      key_regulators:
+        - "ONR"
+    delivery_timeline:
+      original_text: "December 2027"
+      target_date: "2027-12-31"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - primary_legislation
+      - secondary_legislation
+    dependencies:
+      depends_on: []
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Eliminates duplicative justification process for LWRs.
+
+  - id: 36
+    code: "R36"
+    chapter_id: 8
+    proposal_ids: [4]
+    titles:
+      short: "Confirm community benefits consideration"
+      long: "Confirm consideration of proposals in relation to community benefits"
+    text: |
+      The Government should legislate to confirm the provision of community benefits is a material consideration in planning decisions. This will require primary legislation given the existing case law on the consideration of community benefits.
+
+      MHCLG should issue clearer guidance on what matters are to be included as part of community benefits, and which should be excluded from section 106 agreement.
+    scope:
+      sectors: ["civil"]
+      domains:
+        - planning
+        - community
+    ownership:
+      primary_owner: "MHCLG"
+      co_owners: []
+      key_regulators: []
+    delivery_timeline:
+      original_text: "December 2027"
+      target_date: "2027-12-31"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - primary_legislation
+      - guidance
+    dependencies:
+      depends_on: []
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Clarifies treatment of community benefits in planning decisions.
+
+  - id: 37
+    code: "R37"
+    chapter_id: 8
+    proposal_ids: [5]
+    titles:
+      short: "Equalise NDA position for GDF"
+      long: "Equalise the position of the NDA for the benefit of the Geological Disposal Facility"
+    text: |
+      The GDF, and associated site investigation development, is given "Critical National Priority" status by MHCLG in both the National Policy Statement, and either the NPPF or National Development Management Policy.
+
+      Government propose primary legislation which grants the NDA (and any member of the NDA group) the ability to promote a Compulsory Purchase Order and that the NDA (and any member of the NDA group) is deemed to have statutory undertaker status.
+
+      MHCLG amends the GPDO to grant a permitted development right to the Nuclear Decommissioning Authority to carry out surveys similar to the survey powers found in Part 17 Class J and K of Sch 2 of the GPDO.
+
+      If the Government accepts the above recommendations DESNZ should confirm that an alternative planning route for the borehole investigations does provide value for money. Our strong expectation is that a DCO is not proportionate for boreholes.
+    scope:
+      sectors: ["civil"]
+      domains:
+        - planning
+        - waste_management
+    ownership:
+      primary_owner: "MHCLG"
+      co_owners:
+        - "DESNZ"
+      key_regulators: []
+    delivery_timeline:
+      original_text: "December 2027"
+      target_date: "2027-12-31"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - primary_legislation
+      - secondary_legislation
+    dependencies:
+      depends_on: []
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Addresses delays in GDF development. NISTA gave GDF a "red" rating.
+
+  - id: 38
+    code: "R38"
+    chapter_id: 9
+    proposal_ids: [4]
+    titles:
+      short: "Boards assess organisational culture"
+      long: "Boards should assess their organisation's culture and align it with strategic objectives"
+    text: |
+      Regulators, dutyholders, and their supply chain companies should specify 'organisational culture' as a risk at Board level and implement the ownership, management, and monitoring needed to drive the cultural behaviours to deliver strategic objectives safely and efficiently. This should include, but not be limited to safety culture, using the ONR NISCI.
+
+      Boards might apply a mixture of leading and lagging indicators, updated quarterly, with actions including a periodic independent culture assessment, and development of interventions to ensure leaders, the workforce, and supply chain companies understand and are recognised for positive cultural behaviours.
+    scope:
+      sectors: ["civil", "defence"]
+      domains:
+        - culture
+        - governance
+    ownership:
+      primary_owner: "DESNZ"
+      co_owners:
+        - "MOD"
+        - "Industry"
+        - "Regulators"
+        - "Dutyholders"
+      key_regulators:
+        - "ONR"
+    delivery_timeline:
+      original_text: "June 2026 then ongoing"
+      target_date: "2026-06-30"
+      revised_target_date: null
+      notes: "Ongoing requirement after initial implementation"
+    implementation_type:
+      - culture_change
+      - governance
+    dependencies:
+      depends_on: [1]
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Critical for addressing cultural barriers to delivery identified throughout report.
+
+  - id: 39
+    code: "R39"
+    chapter_id: 9
+    proposal_ids: [4]
+    titles:
+      short: "Accelerate skills development"
+      long: "Nuclear Skills Delivery Board should accelerate efforts to build knowledge and experience"
+    text: |
+      We support the Nuclear Skills Plan but urge greater focus on key skills and relevant experience. Effective leadership and greater collaboration are needed across government and industrial skills bodies to maximise the development of nuclear skills for the future.
+
+      Technical training should include specific focus on tolerability of risk and on digital skills. This must be augmented with the development of non-technical skills for all staff and a greater priority given to human factors.
+
+      Workforce experience should be broadened, including regulatory and dutyholder roles, through secondments and mentoring programmes. This could be delivered by strengthening the 'Interchange' programme and by establishing a strategic approach to engaging senior workers and willing retirees in mentoring, coaching, and advising early career staff.
+    scope:
+      sectors: ["civil", "defence"]
+      domains:
+        - skills
+        - workforce
+    ownership:
+      primary_owner: "DESNZ"
+      co_owners:
+        - "MOD"
+        - "Nuclear Skills Delivery Board"
+        - "NSAN"
+      key_regulators: []
+    delivery_timeline:
+      original_text: "September 2026"
+      target_date: "2026-09-30"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - skills_development
+      - organisational_change
+    dependencies:
+      depends_on: []
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Addresses skills gap. Sector needs ~40,000 new employees over five years.
+
+  - id: 40
+    code: "R40"
+    chapter_id: 9
+    proposal_ids: [4]
+    titles:
+      short: "Enhance regulatory terms and conditions"
+      long: "Enhance the terms and conditions for regulatory roles requiring strong technical judgment"
+    text: |
+      Regulators should have the flexibility to improve pay and conditions for roles requiring technical expertise and data-driven decision-making, ensuring they can attract and retain essential scientific talent.
+    scope:
+      sectors: ["civil", "defence"]
+      domains:
+        - workforce
+        - regulatory_capacity
+    ownership:
+      primary_owner: "Regulators"
+      co_owners:
+        - "DESNZ"
+        - "MOD"
+      key_regulators:
+        - "ONR"
+        - "Environment Agency"
+        - "Natural England"
+        - "DNSR"
+    delivery_timeline:
+      original_text: "December 2026"
+      target_date: "2026-12-31"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - funding
+      - organisational_change
+    dependencies:
+      depends_on: []
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Addresses difficulty attracting and retaining SQEP in regulatory bodies.
+
+  - id: 41
+    code: "R41"
+    chapter_id: 9
+    proposal_ids: [4]
+    titles:
+      short: "Establish nuclear digital programme"
+      long: "Establish a nuclear digital strategy to accelerate take up of digital technologies"
+    text: |
+      Establish a jointly funded Government-Industry nuclear digital programme to systematically develop and deploy digital innovation in areas such as data-centric engineering, machine learning, and AI within the sector.
+
+      This should provide a structured approach to develop and capture the considerable benefits of digital technologies as tools for experts that deliver nuclear programmes, enabling the radical reset this report calls for.
+    scope:
+      sectors: ["civil", "defence"]
+      domains:
+        - innovation
+        - digital
+    ownership:
+      primary_owner: "MOD"
+      co_owners:
+        - "DESNZ"
+        - "UKRI"
+        - "Industry"
+      key_regulators:
+        - "ONR"
+    delivery_timeline:
+      original_text: "September 2026"
+      target_date: "2026-09-30"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - funding
+      - innovation
+    dependencies:
+      depends_on: []
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Covers digitised safety cases, AI, data-centric engineering, robotics.
+
+  - id: 42
+    code: "R42"
+    chapter_id: 10
+    proposal_ids: [4]
+    titles:
+      short: "Joint international strategy"
+      long: "Develop and fund a joint Government and Regulator International Strategy and Action Plan"
+    text: |
+      Government and Regulators should develop an international regulatory strategy and delivery plan with clear timelines and deliverables with the aim to:
+
+      - Accelerate the assessment of new reactor designs with the expectation that decisions of acceptability of design will be given within two years and subsequent licensing within one year through;
+        − Maximising the ability to undertake joint reviews on new designs with other trusted international regulators; and
+        - Maximising the leveraging of existing regulatory reviews approved by other trusted national regulators; and regulators; and
+      - Enhance engagement with international bodies and take a leading role in nuclear regulatory standardisation and harmonisation for the benefit of the UK and global deployment of new nuclear power.
+
+      Government should provide dedicated funding to regulators to enable them to implement these ambitious international engagement strategies.
+
+      Government should make a direction under the Energy Act 2013 to the ONR that it should maximise the leverage of existing regulatory reviews approved by other trusted national regulators. This should establish that the ONR is justified in relying on the approvals from states where there are formal working arrangements, such as Memoranda of Understanding. The direction should establish a strong presumption, without prejudice to regulatory independence, that regulatory attention is focused on national or site-specific risks or issues.
+    scope:
+      sectors: ["civil"]
+      domains:
+        - international
+        - harmonisation
+    ownership:
+      primary_owner: "DESNZ"
+      co_owners:
+        - "ONR"
+        - "EA"
+      key_regulators:
+        - "ONR"
+        - "Environment Agency"
+    delivery_timeline:
+      original_text: "June 2026"
+      target_date: "2026-06-30"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - strategic_direction
+      - funding
+    dependencies:
+      depends_on: []
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Aims for GDA decisions within 2 years, licensing within 1 year.
+
+  - id: 43
+    code: "R43"
+    chapter_id: 10
+    proposal_ids: [3]
+    titles:
+      short: "Risk-based export licensing"
+      long: "Ensure risk-based proportionality in export licences"
+    text: |
+      The duration of export licences containing nuclear-related items should be increased to five years as standard, and consideration given to increasing this to ten years. There should be an adoption of a risk-based, proportionate approach to the level of information required as part of any application and record-keeping. This could mirror the risk-based approach adopted under the Money Laundering, Terrorist Financing and Transfer of Funds Regulations 2017. The overall aim of this should be to operate on a more generic basis, based on the actual risks involved.
+
+      Applications for exports of the same items to any entity which has previously been granted an export licence should be decided within 28 days. If amendments to the Export Control Order 2008 are needed to give effect to these recommendations, that should be considered at the earliest opportunity.
+
+      The ONR and EA should be granted ten year open licences which cover their regulatory activities in relation to its functions in collaborating with regulators.
+
+      The Export Controls Joint Unit (ECJU) should establish a dedicated point of contact for nuclear companies and government teams involved in strategic nuclear export licensing. This resource should have the capability to engage meaningfully with nuclear specific matters in order to efficiently process licences in this area.
+    scope:
+      sectors: ["civil"]
+      domains:
+        - international
+        - export_control
+    ownership:
+      primary_owner: "DBT"
+      co_owners:
+        - "EA"
+        - "DESNZ"
+        - "ONR"
+        - "FCDO"
+      key_regulators:
+        - "ONR"
+        - "Environment Agency"
+    delivery_timeline:
+      original_text: "June 2026"
+      target_date: "2026-06-30"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - secondary_legislation
+      - guidance
+    dependencies:
+      depends_on: []
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates:
+      - date: "2026-02-02"
+        status: "info"
+        tags: []
+        title: "Primary owner updated to DBT"
+        description: |
+          This page originally listed the ONR as primary owner. On this site we have tried to identify the primary owner from the order that organisations are listed in the report.
+
+          After discussion with the ONR, it has been explained that government has subsequently advised that the Department for Business and Trade is leading on Recommendation 43, and so we have updated this on the tracker accordingly.
+
+          This is because the changes proposed sit outside of ONR's vires and need to be performed by the relevant licensing authority. Export controls are administered principally by the Export Control Joint Unit (ECJU), with input sought from other governmental departments.
+        links: []
+        source:
+          type: "Correspondence"
+    notes: |
+      Addresses lengthy export licensing processes affecting supply chain participation.
+
+  - id: 44
+    code: "R44"
+    chapter_id: 11
+    proposal_ids: [4]
+    titles:
+      short: "Revise ONR charging model"
+      long: "Revise ONR's charging model to give dutyholders greater cost certainty"
+    text: |
+      Charging levels should be proportionate to inspector experience. There must be transparency around costs with narratives provided to licence applicants. There should be an allowance for the generation of surplus and for that to be reinvested into wider regulatory activities, including R&D and international engagement, that develop ONR capability and benefit the sector.
+
+      Government should increase ONR's core grant to support international engagement in regulatory harmonisation and expertise in international nuclear technology and its regulation.
+    scope:
+      sectors: ["civil", "defence"]
+      domains:
+        - funding
+        - regulatory_capacity
+    ownership:
+      primary_owner: "DESNZ"
+      co_owners:
+        - "DWP"
+        - "MOD"
+        - "ONR"
+      key_regulators:
+        - "ONR"
+    delivery_timeline:
+      original_text: "September 2026 (for implementation from March 2027)"
+      target_date: "2026-09-30"
+      revised_target_date: null
+      notes: "Implementation from March 2027"
+    implementation_type:
+      - funding
+      - secondary_legislation
+    dependencies:
+      depends_on: []
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Addresses ONR funding model constraints.
+
+  - id: 45
+    code: "R45"
+    chapter_id: 11
+    proposal_ids: [3]
+    titles:
+      short: "Reduce gold-plating and risk aversion"
+      long: "Enable public and private efforts to reduce gold-plating and risk aversion"
+    text: |
+      The government should explore contracting mechanisms that incentivise more proportionate solutions for delivering nuclear projects to ALARP. This should include financial incentives that place greater focus on the time, cost and trouble element of delivering ALARP.
+
+      The Chancellor should write a letter to all regulators and industry operators to:
+      - address the issues of gold-plating and commitments on how this can be remedied;
+      - identify measures which can increase their risk appetite within the law;
+      - what measures they are taking to communicate and drive the necessary culture change; and
+      - where relevant, how contractual arrangements can be modified to ensure incentives are aligned with expeditious delivery.
+
+      Responses should be provided within 6 months (i.e. September 2026).
+    scope:
+      sectors: ["civil", "defence"]
+      domains:
+        - contracting
+        - culture
+    ownership:
+      primary_owner: "HM Treasury"
+      co_owners: []
+      key_regulators: []
+    delivery_timeline:
+      original_text: "March 2026"
+      target_date: "2026-03-31"
+      revised_target_date: null
+      notes: "Responses due September 2026"
+    implementation_type:
+      - contracting
+      - culture_change
+    dependencies:
+      depends_on: []
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Addresses lack of sharp financial incentives to control costs.
+
+  - id: 46
+    code: "R46"
+    chapter_id: 11
+    proposal_ids: [5]
+    titles:
+      short: "Reduce siting uncertainty"
+      long: "Reduce uncertainty on the release of sites for future nuclear projects"
+    text: |
+      There should be a clear process for releasing new sites for potential use. DESNZ should within a fixed 28 day period confirm whether it has any objections to the use of any site. The landowner (e.g. EDF or NDA) should then confirm within a 28 day period whether they will make the land available for use (subject to any necessary private agreements).
+
+      If the approval is not provided, this should be clearly articulated to avoid abortive work. Approval should be automatic if a decision is not made within the time limit.
+    scope:
+      sectors: ["civil"]
+      domains:
+        - siting
+        - land
+    ownership:
+      primary_owner: "DESNZ"
+      co_owners:
+        - "NDA"
+        - "EDF"
+      key_regulators: []
+    delivery_timeline:
+      original_text: "June 2026"
+      target_date: "2026-06-30"
+      revised_target_date: null
+      notes: null
+    implementation_type:
+      - guidance
+      - process_change
+    dependencies:
+      depends_on: []
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: []
+    notes: |
+      Addresses difficulty obtaining confirmation on potential land use for new entrants.
+
+  - id: 47
+    code: "R47"
+    chapter_id: 11
+    proposal_ids: [5]
+    titles:
+      short: "Establish delivery plan and oversight"
+      long: "Establish a delivery plan and oversight to ensure timely delivery of recommendations"
+    text: |
+      Following the government response to this report, a Nuclear Regulatory Implementation Panel (NRIP) should be convened to oversee the delivery of these recommendations. It should report regularly to the PM, alongside SOS DESNZ and SOS MOD, on progress against a published delivery plan.
+    scope:
+      sectors: ["civil", "defence"]
+      domains:
+        - implementation
+        - governance
+    ownership:
+      primary_owner: "No. 10"
+      co_owners: []
+      key_regulators: []
+    delivery_timeline:
+      original_text: "March 2026"
+      target_date: "2026-03-31"
+      revised_target_date: null
+      notes: "All work to be completed by December 2027"
+    implementation_type:
+      - governance
+      - organisational_change
+    dependencies:
+      depends_on: []
+      enables: []
+    overall_status:
+      status: "on_track"
+      last_updated: "2025-12-01"
+      confidence: "medium"
+      summary: "Awaiting formal government response."
+    updates: 
+      - date: "2025-12-04"
+        status: "info"
+        title: "Ed Miliband confirms the Government will produce its implementation plan within 3 months"
+        description: "At the Nuclear Industry Association annual conference, Ed Miliband reiterated the Government's acceptance of the recommendations and confirmed that the Government will produce its implementation plan within 3 months."
+        links:
+          - title: "(Coming soon) Text of Ed Miliband's speech at the Nuclear Industry Association annual conference"
+            url: "https://www.gov.uk/government/speeches/nuclear-2025-conference-energy-secretary-speech"
+          - title: "Clip of Ed Miliband's speech at the Nuclear Industry Association annual conference"
+            url: "https://x.com/BritishProgress/status/1996560187927269572"
+        source:
+          type: "Speech"
