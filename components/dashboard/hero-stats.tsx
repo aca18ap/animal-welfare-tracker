@@ -71,17 +71,13 @@ export const HeroStats = memo(function HeroStats({ counts, className, onStatusCl
       {/* Hero Header */}
       <div className="text-center mb-8">
         <div className="mb-3 md:mb-6">
-          <img 
-            src="/logo.svg" 
-            alt="Nuclear Taskforce Tracker" 
-            className="h-6 md:h-10 mx-auto"
-          />
+          <span className="text-4xl" aria-hidden="true">🐾</span>
         </div>
         <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-dark-green mb-4 tracking-tight">
-          Nuclear Taskforce Tracker
+          Animal Welfare Tracker
         </h1>
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-          Tracking the progress of government departments, regulators and industry in implementing the UK Nuclear Regulatory Taskforce's recommendations
+          Tracking government commitments to improve animal welfare across the UK
         </p>
       </div>
 

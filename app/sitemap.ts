@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { getRecommendations, getLastUpdated } from '@/lib/data';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://nuclear.britishprogress.org';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://animalwelfaretracker.uk';
   
   // Get last updated date
   const lastUpdated = await getLastUpdated();

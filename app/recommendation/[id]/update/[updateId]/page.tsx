@@ -33,20 +33,20 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   } catch (error) {
     console.error('Failed to load update for metadata:', error);
     return { 
-      title: 'Error | Nuclear Taskforce Tracker',
+      title: 'Error | Animal Welfare Tracker',
       description: 'An error occurred while loading this update.',
     };
   }
 
   if (!updateData) {
     return {
-      title: 'Update Not Found | Nuclear Taskforce Tracker',
+      title: 'Update Not Found | Animal Welfare Tracker',
       description: 'The requested update could not be found.',
     };
   }
 
   const { recommendation, update } = updateData;
-  const title = `${update.title} | ${recommendation.code} | Nuclear Taskforce Tracker`;
+  const title = `${update.title} | ${recommendation.code} | Animal Welfare Tracker`;
   const description = update.description || `Update on ${recommendation.code}: ${recommendation.titles.short}`;
   const ogImageUrl = getFullUrl(`/api/og/recommendation/${id}/update/${updateId}`);
   const pageUrl = getFullUrl(`/recommendation/${id}/update/${updateId}`);
@@ -58,7 +58,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       title,
       description,
       url: pageUrl,
-      siteName: 'Nuclear Taskforce Tracker',
+      siteName: 'Animal Welfare Tracker',
       images: [
         {
           url: ogImageUrl,

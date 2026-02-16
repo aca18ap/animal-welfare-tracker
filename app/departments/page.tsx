@@ -10,34 +10,34 @@ import { TWITTER_SITE_HANDLE, TWITTER_CREATOR_HANDLE } from '@/lib/constants';
 
 export async function generateMetadata(): Promise<Metadata> {
   const ogImageUrl = '/api/og/departments';
-  const description = "Compare progress across departments and organizations implementing the UK Nuclear Regulatory Taskforce's recommendations.";
+  const description = "Compare progress across organisations responsible for animal welfare commitments";
 
   return {
-    title: "Departments Overview | Nuclear Taskforce Tracker",
+    title: "Departments Overview | Animal Welfare Tracker",
     description,
     openGraph: {
-      title: "Compare Organizations | Nuclear Taskforce Tracker",
+      title: "Compare Organizations | Animal Welfare Tracker",
       description,
       type: "website",
       url: "/departments",
-      siteName: "Nuclear Taskforce Tracker",
+      siteName: "Animal Welfare Tracker",
       images: [
         {
           url: ogImageUrl,
           width: 2400,
           height: 1260,
-          alt: "Nuclear Taskforce Tracker - Compare Organizations Progress",
+          alt: "Animal Welfare Tracker - Compare Organizations Progress",
         },
       ],
     },
     twitter: {
       card: "summary_large_image",
-      title: "Compare Organizations | Nuclear Taskforce Tracker",
+      title: "Compare Organizations | Animal Welfare Tracker",
       description,
       images: [
         {
           url: ogImageUrl,
-          alt: "Nuclear Taskforce Tracker - Compare Organizations Progress",
+          alt: "Animal Welfare Tracker - Compare Organizations Progress",
         },
       ],
       ...(TWITTER_SITE_HANDLE && { site: TWITTER_SITE_HANDLE }),

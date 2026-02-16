@@ -11,7 +11,7 @@ export async function GET(request: NextRequest) {
     
     // Generate filename
     const dateStr = new Date().toISOString().split('T')[0];
-    const filename = `nuclear-taskforce-timeline-${dateStr}`;
+    const filename = `animal-welfare-timeline-${dateStr}`;
     
     if (format === 'xlsx') {
       const buffer = await exportTimelineToExcel();

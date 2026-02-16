@@ -4,25 +4,27 @@
 @custom-variant dark (&:is(.dark *));
 
 /* ========================================
-   NUCLEAR TASKFORCE TRACKER - BRAND THEME
-   Centre for British Progress
+   ANIMAL WELFARE TRACKER - BRAND THEME
+   UK Voters for Animals
    ======================================== */
 
 @theme inline {
   /* Brand Colors */
-  --color-beige: #FDF9E9;
-  --color-neon-green: #81F494;
-  --color-dark-green: #0B4938;
-  --color-light-blue: #80B7F4;
-  --color-dark-blue: #093D77;
-  --color-charcoal: #283131;
-  --color-orange: #FE9F1C;
-  --color-light-red: #FAC2C2;
-  --color-deep-red: #B3063E;
+  --color-beige: #F0F7F7;
+  --color-neon-green: #6EE7B7;
+  --color-dark-green: #1F4D4D;
+  --color-light-blue: #7DD3E8;
+  --color-dark-blue: #1E5A7E;
+  --color-charcoal: #2D3B3B;
+  --color-orange: #F59E0B;
+  --color-light-red: #FCA5A5;
+  --color-deep-red: #DC2626;
+  --color-teal: #3D7A7A;
+  --color-teal-light: #5AAA8A;
 
   /* Semantic Status Colors */
   --color-status-not-started: var(--color-charcoal);
-  --color-status-on-track: var(--color-dark-green);
+  --color-status-on-track: var(--color-teal);
   --color-status-off-track: var(--color-deep-red);
   --color-status-completed: var(--color-neon-green);
   --color-status-abandoned: var(--color-light-red);
@@ -76,81 +78,81 @@
 
 :root {
   --radius: 0.625rem;
-  
-  /* Light theme - Beige-based */
-  --background: #FDF9E9;
-  --foreground: #283131;
+
+  /* Light theme - Teal/Mint-based */
+  --background: #F0F7F7;
+  --foreground: #2D3B3B;
   --card: #FFFFFF;
-  --card-foreground: #283131;
+  --card-foreground: #2D3B3B;
   --popover: #FFFFFF;
-  --popover-foreground: #283131;
-  --primary: #0B4938;
-  --primary-foreground: #FDF9E9;
-  --secondary: #F5F0E0;
-  --secondary-foreground: #0B4938;
-  --muted: #F5F0E0;
-  --muted-foreground: #5A6363;
-  --accent: #81F494;
-  --accent-foreground: #0B4938;
-  --destructive: #B3063E;
-  --border: #E5DFD0;
-  --input: #E5DFD0;
-  --ring: #0B4938;
-  
+  --popover-foreground: #2D3B3B;
+  --primary: #3D7A7A;
+  --primary-foreground: #F0F7F7;
+  --secondary: #E6F0F0;
+  --secondary-foreground: #1F4D4D;
+  --muted: #E6F0F0;
+  --muted-foreground: #5A6B6B;
+  --accent: #6EE7B7;
+  --accent-foreground: #1F4D4D;
+  --destructive: #DC2626;
+  --border: #D1E0E0;
+  --input: #D1E0E0;
+  --ring: #3D7A7A;
+
   /* Chart colors using brand palette */
-  --chart-1: #81F494;
-  --chart-2: #80B7F4;
-  --chart-3: #FE9F1C;
-  --chart-4: #0B4938;
-  --chart-5: #B3063E;
-  
+  --chart-1: #6EE7B7;
+  --chart-2: #7DD3E8;
+  --chart-3: #F59E0B;
+  --chart-4: #3D7A7A;
+  --chart-5: #DC2626;
+
   /* Sidebar */
-  --sidebar: #0B4938;
-  --sidebar-foreground: #FDF9E9;
-  --sidebar-primary: #81F494;
-  --sidebar-primary-foreground: #0B4938;
-  --sidebar-accent: #0D5A47;
-  --sidebar-accent-foreground: #FDF9E9;
-  --sidebar-border: #0D5A47;
-  --sidebar-ring: #81F494;
+  --sidebar: #1F4D4D;
+  --sidebar-foreground: #F0F7F7;
+  --sidebar-primary: #6EE7B7;
+  --sidebar-primary-foreground: #1F4D4D;
+  --sidebar-accent: #2A5E5E;
+  --sidebar-accent-foreground: #F0F7F7;
+  --sidebar-border: #2A5E5E;
+  --sidebar-ring: #6EE7B7;
 }
 
 .dark {
-  --background: #1A1F1F;
-  --foreground: #FDF9E9;
-  --card: #232929;
-  --card-foreground: #FDF9E9;
-  --popover: #232929;
-  --popover-foreground: #FDF9E9;
-  --primary: #81F494;
-  --primary-foreground: #0B4938;
-  --secondary: #2D3535;
-  --secondary-foreground: #FDF9E9;
-  --muted: #2D3535;
-  --muted-foreground: #A0A8A8;
-  --accent: #0B4938;
-  --accent-foreground: #81F494;
-  --destructive: #E84A76;
-  --border: #3A4242;
-  --input: #3A4242;
-  --ring: #81F494;
-  
+  --background: #1A2222;
+  --foreground: #E8F4F4;
+  --card: #223030;
+  --card-foreground: #E8F4F4;
+  --popover: #223030;
+  --popover-foreground: #E8F4F4;
+  --primary: #6EE7B7;
+  --primary-foreground: #1F4D4D;
+  --secondary: #2D3F3F;
+  --secondary-foreground: #E8F4F4;
+  --muted: #2D3F3F;
+  --muted-foreground: #8FA8A8;
+  --accent: #3D7A7A;
+  --accent-foreground: #6EE7B7;
+  --destructive: #F87171;
+  --border: #3A4E4E;
+  --input: #3A4E4E;
+  --ring: #6EE7B7;
+
   /* Chart colors - brighter for dark mode */
-  --chart-1: #81F494;
-  --chart-2: #80B7F4;
-  --chart-3: #FE9F1C;
-  --chart-4: #A8F9B8;
-  --chart-5: #FAC2C2;
-  
+  --chart-1: #6EE7B7;
+  --chart-2: #7DD3E8;
+  --chart-3: #FBBF24;
+  --chart-4: #A7F3D0;
+  --chart-5: #FCA5A5;
+
   /* Sidebar */
-  --sidebar: #141818;
-  --sidebar-foreground: #FDF9E9;
-  --sidebar-primary: #81F494;
-  --sidebar-primary-foreground: #0B4938;
-  --sidebar-accent: #232929;
-  --sidebar-accent-foreground: #FDF9E9;
-  --sidebar-border: #2D3535;
-  --sidebar-ring: #81F494;
+  --sidebar: #162020;
+  --sidebar-foreground: #E8F4F4;
+  --sidebar-primary: #6EE7B7;
+  --sidebar-primary-foreground: #1F4D4D;
+  --sidebar-accent: #223030;
+  --sidebar-accent-foreground: #E8F4F4;
+  --sidebar-border: #2D3F3F;
+  --sidebar-ring: #6EE7B7;
 }
 
 @layer base {

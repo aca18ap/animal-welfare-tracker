@@ -25,7 +25,7 @@ export async function GET(request: NextRequest) {
     
     // Generate filename with filters
     const dateStr = new Date().toISOString().split('T')[0];
-    let filename = `nuclear-taskforce-recommendations-${dateStr}`;
+    let filename = `animal-welfare-commitments-${dateStr}`;
     
     if (status && status !== 'all') {
       filename += `-${status}`;

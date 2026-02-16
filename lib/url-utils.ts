@@ -9,7 +9,7 @@ export function getBaseUrl(): string {
     return process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
   }
   // In production, use the actual domain
-  return process.env.NEXT_PUBLIC_SITE_URL || 'https://nuclear.britishprogress.org';
+  return process.env.NEXT_PUBLIC_SITE_URL || 'https://animalwelfaretracker.uk';
 }
 
 /**

@@ -27,34 +27,34 @@ import { getBaseUrl } from '@/lib/url-utils';
 
 export const metadata: Metadata = {
   metadataBase: new URL(getBaseUrl()),
-  title: "Nuclear Taskforce Tracker | Centre for British Progress",
-  description: "Tracking government progress on implementing the UK Nuclear Regulatory Taskforce's recommendations. An independent monitoring initiative by the Centre for British Progress.",
-  keywords: ["nuclear", "regulation", "UK", "taskforce", "energy", "policy", "government", "nuclear regulation", "regulatory reform"],
-  authors: [{ name: "Centre for British Progress" }],
-  creator: "Centre for British Progress",
-  publisher: "Centre for British Progress",
+  title: "Animal Welfare Tracker | UK Voters for Animals",
+  description: "Tracking government progress on animal welfare commitments across the UK. An independent monitoring initiative by UK Voters for Animals.",
+  keywords: ["animal welfare", "UK", "government", "policy", "animals", "welfare laws", "animal rights", "commitments", "tracker"],
+  authors: [{ name: "UK Voters for Animals" }],
+  creator: "UK Voters for Animals",
+  publisher: "UK Voters for Animals",
   openGraph: {
-    title: "Nuclear Taskforce Tracker | Centre for British Progress",
-    description: "Tracking government progress on implementing the UK Nuclear Regulatory Taskforce's recommendations.",
+    title: "Animal Welfare Tracker | UK Voters for Animals",
+    description: "Tracking government progress on animal welfare commitments across the UK.",
     type: "website",
-    siteName: "Nuclear Taskforce Tracker",
+    siteName: "Animal Welfare Tracker",
     images: [
       {
         url: "/icon_dark.svg",
         width: 400,
         height: 400,
-        alt: "Nuclear Taskforce Tracker",
+        alt: "Animal Welfare Tracker",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Nuclear Taskforce Tracker",
-    description: "Tracking government progress on implementing the UK Nuclear Regulatory Taskforce's recommendations.",
+    title: "Animal Welfare Tracker",
+    description: "Tracking government progress on animal welfare commitments across the UK.",
     images: [
       {
         url: "/icon_dark.svg",
-        alt: "Nuclear Taskforce Tracker logo",
+        alt: "Animal Welfare Tracker logo",
       },
     ],
     ...(TWITTER_SITE_HANDLE && { site: TWITTER_SITE_HANDLE }),

@@ -21,16 +21,15 @@ export async function Footer({ className }: FooterProps) {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* About */}
           <div>
-            <img 
-              src="/logo_light.svg" 
-              alt="Centre for British Progress" 
-              className="h-8 mb-3"
-            />
+            <div className="flex items-center gap-2 mb-3">
+              <span className="text-2xl" aria-hidden="true">🐾</span>
+              <span className="font-display font-bold text-lg text-beige">Animal Welfare Tracker</span>
+            </div>
             <p className="text-sm text-beige/80 leading-relaxed">
-              The Centre for British Progress is a non-partisan think tank researching and producing concrete ideas for an era of British growth and progress.
+              UK Voters for Animals is a non-partisan organisation campaigning for stronger animal welfare protections across the UK.
             </p>
             <p className="text-sm text-beige/80 leading-relaxed mt-2">
-              This project tracks the Government&apos;s progress in implementing the Nuclear Regulatory Taskforce recommendations.
+              This project tracks the Government&apos;s progress in delivering on animal welfare commitments and their impact on animals.
             </p>
           </div>
 
@@ -40,29 +39,29 @@ export async function Footer({ className }: FooterProps) {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="https://www.gov.uk/government/publications/nuclear-regulatory-taskforce"
+                  href="https://www.ukvotersforanimals.org"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 text-sm text-beige/80 hover:text-beige transition-colors"
                 >
-                  Read the full report
+                  UK Voters for Animals
                   <ExternalLink size={12} />
                 </a>
               </li>
               <li>
                 <a
-                  href="https://britishprogress.org"
+                  href="https://www.ukvotersforanimals.org/take-action"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 text-sm text-beige/80 hover:text-beige transition-colors"
                 >
-                  Centre for British Progress
+                  Take Action
                   <ExternalLink size={12} />
                 </a>
               </li>
               <li>
                 <a
-                  href="https://github.com/BritishProgress/nuclear-taskforce-tracker"
+                  href="https://github.com/ukvotersforanimals/animal-welfare-tracker"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 text-sm text-beige/80 hover:text-beige transition-colors"
@@ -79,10 +78,10 @@ export async function Footer({ className }: FooterProps) {
             <h3 className="font-display font-bold text-lg mb-3">Data</h3>
             <p className="text-sm text-beige/80 leading-relaxed mb-2">
               Data is sourced from public government announcements, parliamentary
-              statements, and official publications.
+              statements, official publications, and animal welfare organisations.
             </p>
             <p className="text-xs text-beige/60">
-              Last updated: {lastUpdated 
+              Last updated: {lastUpdated
                 ? new Date(lastUpdated).toLocaleDateString('en-GB', {
                     day: 'numeric',
                     month: 'long',
@@ -96,7 +95,7 @@ export async function Footer({ className }: FooterProps) {
         {/* Copyright */}
         <div className="mt-8 pt-6 border-t border-beige/20">
           <p className="text-sm text-beige/60 text-center">
-            © {currentYear} Centre for British Progress. This is an independent project
+            © {currentYear} UK Voters for Animals. This is an independent project
             and is not affiliated with HM Government.
           </p>
         </div>

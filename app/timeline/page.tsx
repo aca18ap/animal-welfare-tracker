@@ -19,37 +19,37 @@ export async function generateMetadata(): Promise<Metadata> {
   } catch (error) {
     // Fallback metadata if data loading fails
     return {
-      title: 'Timeline | Nuclear Taskforce Tracker',
-      description: 'Track all updates and developments on nuclear regulatory taskforce recommendations.',
+      title: 'Timeline | Animal Welfare Tracker',
+      description: 'Track all updates and developments on animal welfare commitments.',
     };
   }
-  
+
   return {
-    title: 'Timeline | Nuclear Taskforce Tracker',
-    description: `Track all ${timelineItems.length} updates and developments on nuclear regulatory taskforce recommendations. Chronological view of status changes, announcements, and deadlines.`,
+    title: 'Timeline | Animal Welfare Tracker',
+    description: `Track all ${timelineItems.length} updates and developments on animal welfare commitments. Chronological view of status changes, announcements, and deadlines.`,
     openGraph: {
-      title: 'Timeline | Nuclear Taskforce Tracker',
-      description: `Track all updates and developments on nuclear regulatory taskforce recommendations. ${timelineItems.length} timeline items.`,
+      title: 'Timeline | Animal Welfare Tracker',
+      description: `Track all updates and developments on animal welfare commitments. ${timelineItems.length} timeline items.`,
       type: "website",
       url: "/timeline",
-      siteName: "Nuclear Taskforce Tracker",
+      siteName: "Animal Welfare Tracker",
       images: [
         {
           url: "/icon_dark.svg",
           width: 400,
           height: 400,
-          alt: "Nuclear Taskforce Tracker Timeline",
+          alt: "Animal Welfare Tracker Timeline",
         },
       ],
     },
     twitter: {
       card: "summary_large_image",
-      title: "Timeline | Nuclear Taskforce Tracker",
-      description: `Track all updates on nuclear regulatory recommendations. ${timelineItems.length} timeline items.`,
+      title: "Timeline | Animal Welfare Tracker",
+      description: `Track all updates on animal welfare commitments. ${timelineItems.length} timeline items.`,
       images: [
         {
           url: "/icon_dark.svg",
-          alt: "Nuclear Taskforce Tracker Timeline",
+          alt: "Animal Welfare Tracker Timeline",
         },
       ],
       ...(TWITTER_SITE_HANDLE && { site: TWITTER_SITE_HANDLE }),
@@ -97,7 +97,7 @@ export default async function TimelinePage() {
               </div>
               <p className="text-lg text-muted-foreground max-w-2xl">
                 Track all developments, announcements, status changes, and upcoming deadlines 
-                across the nuclear regulatory taskforce recommendations.
+                across animal welfare commitments.
               </p>
             </div>
           </section>
@@ -114,7 +114,7 @@ export default async function TimelinePage() {
                   <Clock className="h-12 w-12 mx-auto mb-4 opacity-50" />
                   <p className="text-lg">No timeline items recorded yet.</p>
                   <p className="text-sm mt-2">
-                    Check back as the government responds to taskforce recommendations.
+                    Check back as the government acts on animal welfare commitments.
                   </p>
                 </div>
               )}

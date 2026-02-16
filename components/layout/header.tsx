@@ -22,13 +22,9 @@ export function Header({ className }: HeaderProps) {
       <div className="container flex h-14 items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 font-display font-bold text-lg">
-          <img 
-            src="/icon_dark.svg" 
-            alt="Nuclear Taskforce" 
-            className="w-8 h-8"
-          />
+          <span className="text-2xl" aria-hidden="true">🐾</span>
           <span className="hidden sm:inline text-dark-green">
-            Nuclear Taskforce Tracker
+            Animal Welfare Tracker
           </span>
         </Link>
 
@@ -44,7 +40,7 @@ export function Header({ className }: HeaderProps) {
             href="/departments"
             className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors"
           >
-            Departments
+            Organisations
           </Link>
           <Link
             href="/timeline"
@@ -53,12 +49,12 @@ export function Header({ className }: HeaderProps) {
             Timeline
           </Link>
           <a
-            href="https://www.gov.uk/government/publications/nuclear-regulatory-taskforce"
+            href="https://www.ukvotersforanimals.org"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1 text-sm font-medium text-foreground/80 hover:text-foreground transition-colors"
           >
-            Read the full report
+            UK Voters for Animals
             <ExternalLink size={12} />
           </a>
         </nav>
@@ -89,7 +85,7 @@ export function Header({ className }: HeaderProps) {
               className="block text-sm font-medium text-foreground/80 hover:text-foreground transition-colors py-2"
               onClick={() => setMobileMenuOpen(false)}
             >
-              Departments
+              Organisations
             </Link>
             <Link
               href="/timeline"
@@ -99,13 +95,13 @@ export function Header({ className }: HeaderProps) {
               Timeline
             </Link>
             <a
-              href="https://www.gov.uk/government/publications/nuclear-regulatory-taskforce"
+              href="https://www.ukvotersforanimals.org"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1 text-sm font-medium text-foreground/80 hover:text-foreground transition-colors py-2"
               onClick={() => setMobileMenuOpen(false)}
             >
-              Read the full report
+              UK Voters for Animals
               <ExternalLink size={12} />
             </a>
           </div>

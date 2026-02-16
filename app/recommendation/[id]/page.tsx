@@ -45,14 +45,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   } catch (error) {
     console.error('Failed to load recommendation for metadata:', error);
     return { 
-      title: 'Error | Nuclear Taskforce Tracker',
+      title: 'Error | Animal Welfare Tracker',
       description: 'An error occurred while loading this recommendation.',
     };
   }
   
   if (!recommendation) {
     return { 
-      title: 'Recommendation Not Found | Nuclear Taskforce Tracker',
+      title: 'Recommendation Not Found | Animal Welfare Tracker',
       description: 'The requested recommendation could not be found.',
     };
   }
@@ -69,12 +69,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const ogImageUrl = `/api/og/recommendation/${recommendation.id}`;
 
   return {
-    title: `${recommendation.code}: ${recommendation.titles.short} | Nuclear Taskforce Tracker`,
+    title: `${recommendation.code}: ${recommendation.titles.short} | Animal Welfare Tracker`,
     description: `${recommendation.titles.long}. Status: ${statusLabel}. Chapter ${recommendation.chapter_id}: ${chapterTitle}.`,
     keywords: [
       recommendation.code,
-      'nuclear regulation',
-      'UK nuclear',
+      'animal welfare',
+      'UK animal welfare',
       chapterTitle,
       statusLabel.toLowerCase(),
       ...(recommendation.scope.sectors || []),
@@ -84,7 +84,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       description: recommendation.titles.long,
       type: "article",
       url: `/recommendation/${recommendation.id}`,
-      siteName: "Nuclear Taskforce Tracker",
+      siteName: "Animal Welfare Tracker",
       images: [
         {
           url: ogImageUrl,

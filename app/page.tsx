@@ -21,37 +21,37 @@ export async function generateMetadata(): Promise<Metadata> {
   } catch (error) {
     // Fallback metadata if data loading fails
     return {
-      title: "Nuclear Taskforce Tracker | Centre for British Progress",
-      description: "Tracking government progress on implementing the UK Nuclear Regulatory Taskforce's recommendations.",
+      title: "Animal Welfare Tracker | UK Voters for Animals",
+      description: "Tracking government progress on animal welfare commitments across the UK.",
     };
   }
-  
+
   return {
-    title: "Nuclear Taskforce Tracker | Centre for British Progress",
-    description: `Tracking government progress on implementing the UK Nuclear Regulatory Taskforce's recommendations. ${counts.completed} completed, ${counts.on_track} on track, ${counts.off_track} off track.`,
+    title: "Animal Welfare Tracker | UK Voters for Animals",
+    description: `Tracking government progress on animal welfare commitments across the UK. ${counts.completed} completed, ${counts.on_track} on track, ${counts.off_track} off track.`,
     openGraph: {
-      title: "Nuclear Taskforce Tracker | Centre for British Progress",
-      description: `Tracking government progress on implementing the UK Nuclear Regulatory Taskforce's recommendations. ${counts.completed} completed, ${counts.on_track} on track, ${counts.off_track} off track.`,
+      title: "Animal Welfare Tracker | UK Voters for Animals",
+      description: `Tracking government progress on animal welfare commitments across the UK. ${counts.completed} completed, ${counts.on_track} on track, ${counts.off_track} off track.`,
       type: "website",
       url: "/",
-      siteName: "Nuclear Taskforce Tracker",
+      siteName: "Animal Welfare Tracker",
       images: [
         {
           url: "/api/og",
           width: 2400,
           height: 1260,
-          alt: "Nuclear Taskforce Tracker - Dashboard Overview",
+          alt: "Animal Welfare Tracker - Dashboard Overview",
         },
       ],
     },
     twitter: {
       card: "summary_large_image",
-      title: "Nuclear Taskforce Tracker",
-      description: `Tracking government progress on implementing the UK Nuclear Regulatory Taskforce's recommendations. ${counts.completed} completed.`,
+      title: "Animal Welfare Tracker",
+      description: `Tracking government progress on animal welfare commitments across the UK. ${counts.completed} completed.`,
       images: [
         {
           url: "/api/og",
-          alt: "Nuclear Taskforce Tracker - Dashboard Overview showing progress statistics",
+          alt: "Animal Welfare Tracker - Dashboard Overview showing progress statistics",
         },
       ],
       ...(TWITTER_SITE_HANDLE && { site: TWITTER_SITE_HANDLE }),

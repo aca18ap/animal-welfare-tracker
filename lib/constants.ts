@@ -59,38 +59,35 @@ export const UPDATE_STATUS_ICONS: Record<UpdateStatus, string> = {
 
 // Department/Owner abbreviation mappings
 export const OWNER_FULL_NAMES: Record<string, string> = {
-  'DESNZ': 'Department for Energy Security and Net Zero',
-  'MOD': 'Ministry of Defence',
-  'ONR': 'Office for Nuclear Regulation',
-  'EA': 'Environment Agency',
-  'MHCLG': 'Ministry of Housing, Communities and Local Government',
   'DEFRA': 'Department for Environment, Food & Rural Affairs',
-  'NDA': 'Nuclear Decommissioning Authority',
-  'HSE': 'Health and Safety Executive',
-  'DWP': 'Department for Work and Pensions',
-  'HM Treasury': 'HM Treasury',
-  'UKHSA': 'UK Health Security Agency',
-  'UKRI': 'UK Research and Innovation',
-  'DBT': 'Department for Business and Trade',
-  'FCDO': 'Foreign, Commonwealth & Development Office',
-  'MOJ': 'Ministry of Justice',
-  'EDF': 'EDF Energy',
+  'APHA': 'Animal and Plant Health Agency',
+  'FSA': 'Food Standards Agency',
+  'RSPCA': 'Royal Society for the Prevention of Cruelty to Animals',
+  'EFRA Committee': 'Environment, Food and Rural Affairs Committee',
+  'Home Office': 'Home Office',
   'No. 10': 'Number 10',
+  'HM Treasury': 'HM Treasury',
+  'DHSC': 'Department of Health and Social Care',
+  'DBT': 'Department for Business and Trade',
+  'EA': 'Environment Agency',
+  'NE': 'Natural England',
+  'VMD': 'Veterinary Medicines Directorate',
+  'AWC': 'Animal Welfare Committee',
 };
 
-// Chapter colors for visual distinction (chapters 1-11 from the taskforce report)
+// Category colors for visual distinction
 export const CHAPTER_COLORS: Record<number, { bg: string; text: string; border: string }> = {
-  1: { bg: 'bg-beige/20', text: 'text-dark-green', border: 'border-beige/40' },
+  1: { bg: 'bg-neon-green/10', text: 'text-dark-green', border: 'border-neon-green/30' },
   2: { bg: 'bg-light-blue/10', text: 'text-dark-blue', border: 'border-light-blue/30' },
-  3: { bg: 'bg-neon-green/10', text: 'text-dark-green', border: 'border-neon-green/30' },
-  4: { bg: 'bg-orange/10', text: 'text-orange', border: 'border-orange/30' },
+  3: { bg: 'bg-orange/10', text: 'text-orange', border: 'border-orange/30' },
+  4: { bg: 'bg-beige/20', text: 'text-dark-green', border: 'border-beige/40' },
   5: { bg: 'bg-dark-green/10', text: 'text-dark-green', border: 'border-dark-green/20' },
   6: { bg: 'bg-light-blue/10', text: 'text-dark-blue', border: 'border-light-blue/30' },
-  7: { bg: 'bg-neon-green/10', text: 'text-dark-green', border: 'border-neon-green/30' },
-  8: { bg: 'bg-orange/10', text: 'text-orange', border: 'border-orange/30' },
-  9: { bg: 'bg-light-red/10', text: 'text-deep-red', border: 'border-light-red/30' },
-  10: { bg: 'bg-dark-blue/10', text: 'text-dark-blue', border: 'border-dark-blue/20' },
-  11: { bg: 'bg-charcoal/10', text: 'text-charcoal', border: 'border-charcoal/20' },
+  7: { bg: 'bg-light-red/10', text: 'text-deep-red', border: 'border-light-red/30' },
+  8: { bg: 'bg-charcoal/10', text: 'text-charcoal', border: 'border-charcoal/20' },
+  9: { bg: 'bg-dark-blue/10', text: 'text-dark-blue', border: 'border-dark-blue/20' },
+  10: { bg: 'bg-neon-green/10', text: 'text-dark-green', border: 'border-neon-green/30' },
+  11: { bg: 'bg-orange/10', text: 'text-orange', border: 'border-orange/30' },
 };
 
 // Default chapter colors for unknown chapters
