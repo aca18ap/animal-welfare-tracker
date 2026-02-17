@@ -7,8 +7,9 @@ import { Disclaimer } from '@/components/shared';
 import {
   AlertCircle,
   CheckCircle,
-  Atom
+  Atom,
 } from 'lucide-react';
+import { ProgressBar } from './progress-bar';
 
 // Hoisted static config outside component to prevent recreation
 const MAIN_STATS_CONFIG = [
@@ -83,41 +84,12 @@ export const HeroStats = memo(function HeroStats({ counts, className, onStatusCl
 
       {/* Progress Bar & Stats */}
       <div className="flex flex-col items-center gap-4 sm:gap-8">
-        {/* Horizontal Progress Bar */}
+        {/* Animal Welfare Progress Bar */}
         <div className="w-full max-w-2xl">
-          <div className="relative h-8 sm:h-10 bg-muted rounded-md overflow-hidden">
-            {/* Completed segment */}
-            {counts.completed > 0 && (
-              <div
-                className="absolute left-0 top-0 h-full bg-neon-green transition-all duration-500 ease-out"
-                style={{ width: `${(counts.completed / counts.total) * 100}%` }}
-              />
-            )}
-            {/* On Track segment */}
-            {counts.on_track > 0 && (
-              <div
-                className="absolute top-0 h-full bg-dark-green/30 transition-all duration-500 ease-out"
-                style={{
-                  left: `${(counts.completed / counts.total) * 100}%`,
-                  width: `${(counts.on_track / counts.total) * 100}%`,
-                }}
-              />
-            )}
-            {/* Off Track segment */}
-            {counts.off_track > 0 && (
-              <div
-                className="absolute top-0 h-full bg-deep-red/30 transition-all duration-500 ease-out"
-                style={{
-                  left: `${((counts.completed + counts.on_track) / counts.total) * 100}%`,
-                  width: `${(counts.off_track / counts.total) * 100}%`,
-                }}
-              />
-            )}
-            {/* Atom icon in center */}
-            <div className="absolute inset-0 flex items-center justify-center">
-              <Atom className="h-5 w-5 sm:h-6 sm:w-6 text-dark-green" />
-            </div>
-          </div>
+          <ProgressBar
+            total_animals_helped={counts.completed}
+            total_animals={counts.total}
+          />
         </div>
 
         {/* Stats Grid - Centered */}
