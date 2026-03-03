@@ -55,7 +55,11 @@ interface RecRow {
   status_last_updated?: string;
   confidence?: string;
   status_summary: string;
+<<<<<<< HEAD
   animals_impacted: number;
+=======
+  animals_impacted?: number;
+>>>>>>> master
 }
 
 // 2. Final Data Interfaces (What goes INTO the YAML)
@@ -102,7 +106,11 @@ interface Recommendation {
     summary: string;
   };
   updates: Update[];
+<<<<<<< HEAD
   animals_impacted: number;
+=======
+  animals_impacted?: number;
+>>>>>>> master
 }
 
 interface FinalYamlStructure {
@@ -232,7 +240,11 @@ export async function fetchAndBuildYaml(): Promise<string> {
         summary: rec.status_summary
       },
       updates: updatesMap[rec.id] || [],
+<<<<<<< HEAD
       animals_impacted: parseInt(rec.animals_impacted as any) || 0
+=======
+      ...(rec.animals_impacted != null && { animals_impacted: Number(rec.animals_impacted) }),
+>>>>>>> master
     };
   });
 

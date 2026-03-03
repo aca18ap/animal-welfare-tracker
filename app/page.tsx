@@ -3,14 +3,15 @@ import type { Metadata } from 'next';
 import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
 import { DashboardContent } from './dashboard-content';
-import { 
-  getStatusCounts, 
-  getChaptersWithRecommendations, 
-  getUpcomingDeadlines, 
+import {
+  getStatusCounts,
+  getChaptersWithRecommendations,
+  getUpcomingDeadlines,
   getRecentUpdates,
   getUniqueOwners,
   getChapters,
   getAllOwnerInfo,
+  getAnimalImpactCounts,
 } from '@/lib/data';
 import { TWITTER_SITE_HANDLE, TWITTER_CREATOR_HANDLE } from '@/lib/constants';
 
@@ -65,10 +66,10 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default async function HomePage() {
   // Fetch all data server-side with error handling
-  let counts, chaptersWithRecs, deadlines, recentUpdates, owners, chapters, ownerInfoMap;
-  
+  let counts, chaptersWithRecs, deadlines, recentUpdates, owners, chapters, ownerInfoMap, animalImpact;
+
   try {
-    [counts, chaptersWithRecs, deadlines, recentUpdates, owners, chapters, ownerInfoMap] = await Promise.all([
+    [counts, chaptersWithRecs, deadlines, recentUpdates, owners, chapters, ownerInfoMap, animalImpact] = await Promise.all([
       getStatusCounts(),
       getChaptersWithRecommendations(),
       getUpcomingDeadlines(8),
@@ -76,6 +77,7 @@ export default async function HomePage() {
       getUniqueOwners(),
       getChapters(),
       getAllOwnerInfo(),
+      getAnimalImpactCounts(),
     ]);
   } catch (error) {
     // Log error and throw to trigger error boundary
@@ -93,13 +95,13 @@ export default async function HomePage() {
       <main className="flex-1">
         <Suspense fallback={<DashboardSkeleton />}>
           <DashboardContentWrapper
-            counts={counts}
             chaptersWithRecs={chaptersWithRecs}
             deadlines={deadlines}
             recentUpdates={recentUpdates}
             owners={owners}
             chapters={chapters}
             ownerInfo={ownerInfo}
+            animalImpact={animalImpact}
           />
         </Suspense>
       </main>
