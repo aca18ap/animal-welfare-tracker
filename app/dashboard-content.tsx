@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo, useEffect, useCallback } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { cn } from '@/lib/utils';
@@ -10,15 +10,13 @@ import { ExportButton } from '@/components/shared/export-button';
 import { getChapterColors } from '@/lib/constants';
 import { X, ChevronDown, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { 
-  StatusCounts, 
-  ChapterWithRecommendations, 
-  UpcomingDeadline, 
-  RecentUpdate, 
+import {
+  ChapterWithRecommendations,
+  UpcomingDeadline,
+  RecentUpdate,
   FilterState,
   Chapter,
   Recommendation,
-  OverallStatus,
 } from '@/lib/types';
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible';
 
@@ -237,23 +235,23 @@ function EmptyChaptersGroup({ chapters }: EmptyChaptersGroupProps) {
 }
 
 interface DashboardContentProps {
-  counts: StatusCounts;
   chaptersWithRecs: ChapterWithRecommendations[];
   deadlines: UpcomingDeadline[];
   recentUpdates: RecentUpdate[];
   owners: string[];
   chapters: Chapter[];
   ownerInfo?: Record<string, Array<{ title: string; name: string }>>;
+  animalImpact: { totalAnimalsHelped: number; totalAnimals: number };
 }
 
 export function DashboardContent({
-  counts,
   chaptersWithRecs,
   deadlines,
   recentUpdates,
   owners,
   chapters,
   ownerInfo = {},
+  animalImpact,
 }: DashboardContentProps) {
   const searchParams = useSearchParams();
   const router = useRouter();
@@ -299,28 +297,6 @@ export function DashboardContent({
       }, 300);
     }
   }, [filters.chapter]);
-
-  const handleStatusClick = useCallback((status: OverallStatus | 'all') => {
-    setFilters(prev => ({
-      ...prev,
-      status: status,
-    }));
-    // Scroll to filters section
-    setTimeout(() => {
-      document.querySelector('[data-filter-section]')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }, 100);
-  }, []);
-
-  const handleTagClick = useCallback((tag: string) => {
-    setFilters(prev => ({
-      ...prev,
-      tag: tag,
-    }));
-    // Scroll to filters section
-    setTimeout(() => {
-      document.querySelector('[data-filter-section]')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }, 100);
-  }, []);
 
   // Filter recommendations based on current filters
   const filteredChapters = useMemo(() => {
@@ -397,7 +373,10 @@ export function DashboardContent({
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-beige to-background pt-8 md:pt-16 pb-4 md:pb-6">
         <div className="container">
-          <HeroStats counts={counts} onStatusClick={handleStatusClick} />
+          <HeroStats
+            totalAnimalsHelped={animalImpact.totalAnimalsHelped}
+            totalAnimals={animalImpact.totalAnimals}
+          />
           
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row justify-center items-center gap-3 mt-6 md:mt-8">
