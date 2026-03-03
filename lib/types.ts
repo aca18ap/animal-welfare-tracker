@@ -113,6 +113,7 @@ export interface Recommendation {
   overall_status: OverallStatusInfo;
   updates?: Update[];
   notes?: string;
+  animals_impacted?: number;
 }
 
 // Root Data Structure
@@ -147,6 +148,11 @@ export interface RecommendationWithChapter extends Recommendation {
 
 export interface ChapterWithRecommendations extends Chapter {
   recommendations: Recommendation[];
+}
+
+export interface AnimalProgressStats {
+  animals_impacted_so_far: number;
+  animals_impacted_in_total: number;
 }
 
 export interface StatusCounts {

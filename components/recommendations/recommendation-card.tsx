@@ -48,7 +48,7 @@ export const RecommendationCard = memo(function RecommendationCard({
             {/* Header */}
             <div className="flex items-start justify-between gap-2 mb-1.5">
               <span className="font-mono text-sm font-bold text-primary">
-                {recommendation.code}
+                {recommendation.titles.short}
               </span>
               <StatusBadge
                 status={recommendation.overall_status.status}
@@ -60,41 +60,10 @@ export const RecommendationCard = memo(function RecommendationCard({
 
             {/* Title */}
             <h3 className="font-semibold text-sm leading-tight mb-1.5 line-clamp-2 group-hover:text-primary transition-colors flex-1">
-              {recommendation.titles.short}
+              {recommendation.titles.long}
             </h3>
 
-            {/* Footer */}
-            <div className="flex items-center justify-between gap-2 text-xs text-muted-foreground mt-auto">
-              <div className="flex-1 min-w-0 flex items-center gap-1.5">
-                <OwnershipTag 
-                  owner={recommendation.ownership.primary_owner} 
-                  size="sm" 
-                  isPrimary={false}
-                  className="truncate max-w-full"
-                />
-                {recommendation.ownership.co_owners && recommendation.ownership.co_owners.length > 0 && (
-                  <OwnershipTag 
-                    owner={`+${recommendation.ownership.co_owners.length}`} 
-                    size="sm" 
-                    isPrimary={false}
-                    className="whitespace-nowrap"
-                  />
-                )}
-              </div>
-              <div className={cn(
-                'flex items-center gap-1 font-mono flex-shrink-0',
-                overdue && 'text-deep-red'
-              )}>
-                {overdue ? (
-                  <AlertTriangle size={12} />
-                ) : days <= 30 ? (
-                  <Clock size={12} />
-                ) : (
-                  <Calendar size={12} />
-                )}
-                <span className="whitespace-nowrap">{formatDateShort(targetDate)}</span>
-              </div>
-            </div>
+            
           </CardContent>
         </Card>
       </Link>

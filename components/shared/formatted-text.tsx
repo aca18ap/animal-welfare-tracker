@@ -17,7 +17,8 @@ interface TextBlock {
   items: ListItem[] | string[];
 }
 
-function parseText(text: string): TextBlock[] {
+function parseText(text: string | undefined): TextBlock[] {
+  if (!text) return [];
   const lines = text.split('\n');
   const blocks: TextBlock[] = [];
   let currentBlock: TextBlock | null = null;

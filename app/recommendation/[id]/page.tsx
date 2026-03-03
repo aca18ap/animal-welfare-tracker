@@ -77,7 +77,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       'UK animal welfare',
       chapterTitle,
       statusLabel.toLowerCase(),
-      ...(recommendation.scope.sectors || []),
+      ...(recommendation.scope?.sectors || []),
     ],
     openGraph: {
       title: `${recommendation.code}: ${recommendation.titles.short}`,
@@ -170,9 +170,9 @@ export default async function RecommendationPage({ params }: PageProps) {
           <div className="container">
             {/* Chapter badge */}
             <div className="flex items-center gap-2 mb-4">
-              <span className={`text-sm font-medium ${chapterColors.text}`}>
+              {/* <span className={`text-sm font-medium ${chapterColors.text}`}>
                 Chapter {recommendation.chapter_id}
-              </span>
+              </span> */}
               <span className="text-muted-foreground">•</span>
               <span className="text-sm text-muted-foreground">
                 {chapterTitle}
@@ -181,9 +181,9 @@ export default async function RecommendationPage({ params }: PageProps) {
 
             {/* Code and Status */}
             <div className="flex flex-wrap items-center gap-4 mb-4">
-              <span className="font-mono text-3xl font-bold text-primary">
+              {/* <span className="font-mono text-3xl font-bold text-primary">
                 {recommendation.code}
-              </span>
+              </span> */}
               <StatusBadge
                 status={recommendation.overall_status.status}
                 type="overall"
@@ -205,7 +205,7 @@ export default async function RecommendationPage({ params }: PageProps) {
 
         {/* Main Content */}
         <section className="container py-8">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1">
             {/* Left Column - Main Content */}
             <div className="lg:col-span-2 space-y-8">
               {/* Full Text */}
@@ -248,110 +248,10 @@ export default async function RecommendationPage({ params }: PageProps) {
 
             {/* Right Column - Metadata */}
             <div className="space-y-6">
-              {/* Ownership */}
-              <Card>
-                <CardHeader className="pb-2">
-                  <CardTitle className="flex items-center gap-2 text-base">
-                    <Users className="h-4 w-4 text-primary" />
-                    Ownership
-                  </CardTitle>
-                </CardHeader>
-                <CardContent className="space-y-3">
-                  <div>
-                    <p className="text-xs text-muted-foreground mb-1.5">Primary Owner</p>
-                    <OwnershipList
-                      primaryOwner={recommendation.ownership.primary_owner}
-                    />
-                  </div>
-                  {recommendation.ownership.co_owners && recommendation.ownership.co_owners.length > 0 && (
-                    <div>
-                      <p className="text-xs text-muted-foreground mb-1.5">Co-owners</p>
-                      <div className="flex flex-wrap gap-1.5">
-                        {recommendation.ownership.co_owners.map((owner) => (
-                          <Badge key={owner} variant="secondary" className="font-mono text-xs">
-                            {owner}
-                          </Badge>
-                        ))}
-                      </div>
-                    </div>
-                  )}
-                  {recommendation.ownership.key_regulators && recommendation.ownership.key_regulators.length > 0 && (
-                    <div>
-                      <p className="text-xs text-muted-foreground mb-1.5">Key Regulators</p>
-                      <div className="flex flex-wrap gap-1.5">
-                        {recommendation.ownership.key_regulators.map((reg) => (
-                          <Badge key={reg} variant="outline" className="font-mono text-xs">
-                            {reg}
-                          </Badge>
-                        ))}
-                      </div>
-                    </div>
-                  )}
-                </CardContent>
-              </Card>
 
-              {/* Deadline */}
-              <Card>
-                <CardHeader className="pb-2">
-                  <CardTitle className="flex items-center gap-2 text-base">
-                    <Calendar className="h-4 w-4 text-primary" />
-                    Delivery Timeline
-                  </CardTitle>
-                </CardHeader>
-                <CardContent className="space-y-3">
-                  <DeadlineIndicator
-                    targetDate={recommendation.delivery_timeline.target_date}
-                    revisedDate={recommendation.delivery_timeline.revised_target_date}
-                    size="md"
-                    completed={recommendation.overall_status.status === 'completed'}
-                    completionDate={recommendation.overall_status.status === 'completed' ? recommendation.overall_status.last_updated : undefined}
-                  />
-                  <p className="text-sm text-muted-foreground">
-                    <span className="font-medium">Original target:</span>{' '}
-                    {recommendation.delivery_timeline.original_text}
-                  </p>
-                  {recommendation.delivery_timeline.notes && (
-                    <p className="text-sm text-muted-foreground">
-                      <span className="font-medium">Notes:</span>{' '}
-                      {recommendation.delivery_timeline.notes}
-                    </p>
-                  )}
-                </CardContent>
-              </Card>
+              
 
-              {/* Scope */}
-              <Card>
-                <CardHeader className="pb-2">
-                  <CardTitle className="flex items-center gap-2 text-base">
-                    <Target className="h-4 w-4 text-primary" />
-                    Scope
-                  </CardTitle>
-                </CardHeader>
-                <CardContent className="space-y-3">
-                  <div>
-                    <p className="text-xs text-muted-foreground mb-1.5">Sectors</p>
-                    <div className="flex flex-wrap gap-1.5">
-                      {recommendation.scope.sectors.map((sector) => (
-                        <Badge key={sector} className="capitalize">
-                          {sector}
-                        </Badge>
-                      ))}
-                    </div>
-                  </div>
-                  {recommendation.scope.domains && recommendation.scope.domains.length > 0 && (
-                    <div>
-                      <p className="text-xs text-muted-foreground mb-1.5">Domains</p>
-                      <div className="flex flex-wrap gap-1.5">
-                        {recommendation.scope.domains.map((domain) => (
-                          <Badge key={domain} variant="secondary" className="capitalize">
-                            {domain.replace(/_/g, ' ')}
-                          </Badge>
-                        ))}
-                      </div>
-                    </div>
-                  )}
-                </CardContent>
-              </Card>
+              
 
               {/* Implementation Type */}
               {recommendation.implementation_type && recommendation.implementation_type.length > 0 && (
