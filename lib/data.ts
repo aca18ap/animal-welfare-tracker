@@ -360,6 +360,22 @@ export function getProgressPercentage(counts: StatusCounts): number {
   return Math.round((counts.completed / counts.total) * 100);
 }
 
+export async function getAnimalImpactCounts(): Promise<{ totalAnimalsHelped: number; totalAnimals: number }> {
+  const data = await loadTaskforceData();
+  let totalAnimalsHelped = 0;
+  let totalAnimals = 0;
+
+  for (const rec of data.recommendations) {
+    const impact = rec.animals_impacted ?? 0;
+    totalAnimals += impact;
+    if (rec.overall_status.status === 'completed') {
+      totalAnimalsHelped += impact;
+    }
+  }
+
+  return { totalAnimalsHelped, totalAnimals };
+}
+
 // ========================================
 // OWNER/DEPARTMENT AGGREGATIONS
 // ========================================

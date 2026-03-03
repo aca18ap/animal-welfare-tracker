@@ -113,6 +113,7 @@ export interface Recommendation {
   overall_status: OverallStatusInfo;
   updates?: Update[];
   notes?: string;
+  animals_impacted?: number;
 }
 
 // Root Data Structure
