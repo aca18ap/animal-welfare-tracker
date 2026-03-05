@@ -380,16 +380,6 @@ export function DashboardContent({
           
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row justify-center items-center gap-3 mt-6 md:mt-8">
-            <Link href="/departments">
-            <Button
-                size="default"
-                variant="outline"
-                className="border-dark-green text-dark-green hover:bg-dark-green/10 font-semibold px-6 py-6 text-base md:text-lg shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105 w-full sm:w-auto"
-              >
-                <span>Compare departments' progress</span>
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
-            </Link>
             <Link href="/timeline">
               <Button
                 size="default"
