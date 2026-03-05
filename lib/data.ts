@@ -366,7 +366,8 @@ export async function getAnimalImpactCounts(): Promise<{ totalAnimalsHelped: num
   let totalAnimals = 0;
 
   for (const rec of data.recommendations) {
-    const impact = rec.animals_impacted ?? 0;
+        const impact = Number(rec.animals_impacted) || 0;
+
     totalAnimals += impact;
     if (rec.overall_status.status === 'completed') {
       totalAnimalsHelped += impact;

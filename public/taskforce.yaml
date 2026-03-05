@@ -1,4 +1,4 @@
-last_updated: '2026-02-16'
+last_updated: '2026-03-05'
 status_scales:
   overall_status: []
   update_status: []
@@ -52,7 +52,9 @@ proposals:
       - '17'
       - '18'
       - '19'
-ownership: []
+ownership:
+  - owner: DEFRA
+    key_people: []
 recommendations:
   - id: 11
     code: AW11
@@ -68,9 +70,11 @@ recommendations:
     domains: []
     ownership:
       co_owners: []
-      key_regulators: []
+      key_regulators:
+        - DEFRA
+        - No 10
     delivery_timeline:
-      original_text: TBC
+      original_text: March 2027
       target_date: null
       revised_target_date: null
       notes: null
@@ -80,10 +84,11 @@ recommendations:
       enables: []
     overall_status:
       status: Not Started
-      last_updated: '2026-02-16'
+      last_updated: '2026-03-05'
       confidence: medium
       summary: null
     updates: []
+    animals_impacted: .nan
   - id: 12
     code: AW12
     chapter_id: 1
@@ -110,10 +115,11 @@ recommendations:
       enables: []
     overall_status:
       status: Not Started
-      last_updated: '2026-02-16'
+      last_updated: '2026-03-05'
       confidence: medium
       summary: null
     updates: []
+    animals_impacted: .nan
   - id: 13
     code: AW13
     chapter_id: 1
@@ -140,10 +146,16 @@ recommendations:
       enables: []
     overall_status:
       status: Not Started
-      last_updated: '2026-02-16'
+      last_updated: '2026-03-05'
       confidence: medium
       summary: null
-    updates: []
+    updates:
+      - date: '2026-02-01'
+        status: null
+        title: null
+        description: null
+        links: []
+    animals_impacted: .nan
   - id: 16
     code: AW16
     chapter_id: 1
@@ -170,7 +182,7 @@ recommendations:
       enables: []
     overall_status:
       status: Not Committed
-      last_updated: '2026-02-16'
+      last_updated: '2026-03-05'
       confidence: medium
       summary: null
     updates:
@@ -179,6 +191,12 @@ recommendations:
         title: Update from Tracker
         description: DEFRA has developed proposals
         links: []
+      - date: '2026-03-03'
+        status: Info
+        title: new Updated!
+        description: eubfisuhefisuhf
+        links: []
+    animals_impacted: .nan
   - id: 1
     code: AW01
     chapter_id: 2
@@ -205,10 +223,11 @@ recommendations:
       enables: []
     overall_status:
       status: Not Started
-      last_updated: '2026-02-16'
+      last_updated: '2026-03-05'
       confidence: medium
       summary: null
     updates: []
+    animals_impacted: .nan
   - id: 2
     code: AW02
     chapter_id: 2
@@ -235,7 +254,7 @@ recommendations:
       enables: []
     overall_status:
       status: Not Started
-      last_updated: '2026-02-16'
+      last_updated: '2026-03-05'
       confidence: medium
       summary: null
     updates:
@@ -244,6 +263,7 @@ recommendations:
         title: Update from Tracker
         description: Previous Trophy Hunting Bill stalled in Lords
         links: []
+    animals_impacted: 116
   - id: 3
     code: AW03
     chapter_id: 3
@@ -270,10 +290,11 @@ recommendations:
       enables: []
     overall_status:
       status: Not Started
-      last_updated: '2026-02-16'
+      last_updated: '2026-03-05'
       confidence: medium
       summary: null
     updates: []
+    animals_impacted: .nan
   - id: 4
     code: AW04
     chapter_id: 3
@@ -300,10 +321,11 @@ recommendations:
       enables: []
     overall_status:
       status: Not Started
-      last_updated: '2026-02-16'
+      last_updated: '2026-03-05'
       confidence: medium
       summary: null
     updates: []
+    animals_impacted: .nan
   - id: 5
     code: AW05
     chapter_id: 2
@@ -330,10 +352,11 @@ recommendations:
       enables: []
     overall_status:
       status: Not Started
-      last_updated: '2026-02-16'
+      last_updated: '2026-03-05'
       confidence: medium
       summary: null
     updates: []
+    animals_impacted: .nan
   - id: 7
     code: AW07
     chapter_id: 2
@@ -360,10 +383,11 @@ recommendations:
       enables: []
     overall_status:
       status: Not Started
-      last_updated: '2026-02-16'
+      last_updated: '2026-03-05'
       confidence: medium
       summary: null
     updates: []
+    animals_impacted: .nan
   - id: 9
     code: AW09
     chapter_id: 3
@@ -390,10 +414,11 @@ recommendations:
       enables: []
     overall_status:
       status: Not Started
-      last_updated: '2026-02-16'
+      last_updated: '2026-03-05'
       confidence: medium
       summary: null
     updates: []
+    animals_impacted: .nan
   - id: 10
     code: AW10
     chapter_id: 3
@@ -420,10 +445,11 @@ recommendations:
       enables: []
     overall_status:
       status: Not Started
-      last_updated: '2026-02-16'
+      last_updated: '2026-03-05'
       confidence: medium
       summary: null
     updates: []
+    animals_impacted: .nan
   - id: 14
     code: AW14
     chapter_id: 4
@@ -450,7 +476,7 @@ recommendations:
       enables: []
     overall_status:
       status: In Progress
-      last_updated: '2026-02-16'
+      last_updated: '2026-03-05'
       confidence: medium
       summary: null
     updates:
@@ -459,6 +485,7 @@ recommendations:
         title: Update from Tracker
         description: Act passed but needs full implementation
         links: []
+    animals_impacted: .nan
   - id: 17
     code: AW17
     chapter_id: 3
@@ -485,7 +512,7 @@ recommendations:
       enables: []
     overall_status:
       status: null
-      last_updated: '2026-02-16'
+      last_updated: '2026-03-05'
       confidence: medium
       summary: null
     updates: []
@@ -515,7 +542,7 @@ recommendations:
       enables: []
     overall_status:
       status: null
-      last_updated: '2026-02-16'
+      last_updated: '2026-03-05'
       confidence: medium
       summary: null
     updates: []
@@ -545,7 +572,8 @@ recommendations:
       enables: []
     overall_status:
       status: null
-      last_updated: '2026-02-16'
+      last_updated: '2026-03-05'
       confidence: medium
       summary: null
     updates: []
+total_animals_impacted: .nan

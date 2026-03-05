@@ -150,6 +150,11 @@ export interface ChapterWithRecommendations extends Chapter {
   recommendations: Recommendation[];
 }
 
+export interface AnimalProgressStats {
+  animals_impacted_so_far: number;
+  animals_impacted_in_total: number;
+}
+
 export interface StatusCounts {
   not_started: number;
   on_track: number;

@@ -23,7 +23,7 @@ function ChapterSummary({ summary }: ChapterSummaryProps) {
     <Collapsible open={isSummaryOpen} onOpenChange={setIsSummaryOpen} className="mb-4">
       <CollapsibleTrigger asChild>
         <button className="w-full text-left flex items-center justify-between gap-2 p-3 rounded-md bg-muted/50 hover:bg-muted/70 transition-colors border border-border/50">
-          <span className="text-sm font-medium">Chapter Summary</span>
+          <span className="text-sm font-medium">Summary</span>
           <ChevronDown
             size={16}
             className={cn(
@@ -89,7 +89,7 @@ export const ChapterSection = memo(function ChapterSection({
             )}
             <div className="text-left min-w-0 flex-1">
               <h2 className={cn('font-display font-bold text-lg', colors.text, 'break-words')}>
-                Chapter {chapter.id}: {chapter.title}
+                {chapter.title}
               </h2>
               <p className="text-sm text-muted-foreground mt-0.5">
                 {recommendations.length} recommendation{recommendations.length !== 1 ? 's' : ''}

@@ -115,6 +115,7 @@ interface FinalYamlStructure {
   proposals: { id: number; title: string; description: string; recommendation_ids: string[] }[];
   ownership: { owner: string; key_people: KeyPerson[] }[];
   recommendations: Recommendation[];
+  total_animals_impacted: number;
 }
 
 // --- Helpers ---
@@ -128,7 +129,7 @@ async function fetchSheet<T>(gid: string): Promise<T[]> {
 
     if (!response.ok) throw new Error(`Failed to fetch GID ${gid}`);
     const csvText = await response.text();
-    
+    console.log(csvText); // Debug: Log raw CSV text
     return new Promise((resolve, reject) => {
       Papa.parse<T>(csvText, {
         header: true,
@@ -195,6 +196,7 @@ export async function fetchAndBuildYaml(): Promise<string> {
 
   // 4. Build Recommendation Objects
   const processedRecommendations: Recommendation[] = recommendations.map(rec => {
+    console.log(rec)
     return {
       id: rec.id,
       code: rec.code,
@@ -259,8 +261,12 @@ export async function fetchAndBuildYaml(): Promise<string> {
       recommendation_ids: toList(p.recommendation_ids)
     })),
     ownership: processedOwners,
-    recommendations: processedRecommendations
+    recommendations: processedRecommendations,
+    total_animals_impacted: processedRecommendations.reduce((sum, rec) => parseInt(sum as any) + parseInt(rec.animals_impacted as any), 0)
   };
+
+  console.log(`Total Animals Impacted: ${finalStructure.total_animals_impacted}`);
+
 
   // 7. Dump to YAML
   return yaml.dump(finalStructure, { noRefs: true, lineWidth: -1 });
