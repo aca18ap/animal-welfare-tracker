@@ -22,7 +22,6 @@ export async function loadTaskforceData(): Promise<TaskforceData> {
 
   try {
     // --- Step 1: Fetch Fresh Data ---
-    console.log('Fetching fresh data from Google Sheets...');
     const yamlString = await fetchAndBuildYaml();
 
     if (!yamlString || yamlString.trim().length === 0) {
@@ -34,7 +33,6 @@ export async function loadTaskforceData(): Promise<TaskforceData> {
     // we log a warning but still return the fresh data to the user.
     try {
       await fs.writeFile(filePath, yamlString, 'utf8');
-      console.log('Local cache file updated.');
     } catch (writeError) {
       console.warn('Warning: Could not write to local file (likely read-only fs), but proceeding with fresh data.');
     }
@@ -57,7 +55,6 @@ export async function loadTaskforceData(): Promise<TaskforceData> {
       const data = yaml.load(fileContents) as TaskforceData;
       validateData(data);
 
-      console.log('Successfully loaded from local backup.');
       cachedData = data;
       return data;
     } catch (fsError) {

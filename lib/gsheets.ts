@@ -129,7 +129,6 @@ async function fetchSheet<T>(gid: string): Promise<T[]> {
 
     if (!response.ok) throw new Error(`Failed to fetch GID ${gid}`);
     const csvText = await response.text();
-    console.log(csvText); // Debug: Log raw CSV text
     return new Promise((resolve, reject) => {
       Papa.parse<T>(csvText, {
         header: true,
@@ -264,8 +263,6 @@ export async function fetchAndBuildYaml(): Promise<string> {
     recommendations: processedRecommendations,
     total_animals_impacted: processedRecommendations.reduce((sum, rec) => parseInt(sum as any) + parseInt(rec.animals_impacted as any), 0)
   };
-
-  console.log(`Total Animals Impacted: ${finalStructure.total_animals_impacted}`);
 
 
   // 7. Dump to YAML
